@@ -28052,7 +28052,7 @@ enablement and scalability of the Kinetis family.</description>
 <part name="SUPPLY16" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="2.0KOHM" device="-0402T-1/16W-1%" value="2.0K"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402T-1/16W-1%" value="10k"/>
-<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39288/1"/>
+<part name="CHG_I" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39288/1"/>
 <part name="GND29" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND30" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND31" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -28137,7 +28137,7 @@ enablement and scalability of the Kinetis family.</description>
 <part name="SUPPLY30" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R12" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402T-1/16W-1%" value="100k"/>
 <part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="VDDJ_EN" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
+<part name="VJ_CTRL" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_3MM"/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
@@ -28315,7 +28315,7 @@ control of J-Link OB Debugger</text>
 <attribute name="NAME" x="176.276" y="241.3" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="179.324" y="241.3" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="JP1" gate="G$1" x="170.18" y="248.92" smashed="yes" rot="R270">
+<instance part="CHG_I" gate="G$1" x="170.18" y="248.92" smashed="yes" rot="R270">
 <attribute name="NAME" x="169.418" y="244.856" size="1.778" layer="95" font="vector" rot="R180" align="center"/>
 </instance>
 <instance part="GND29" gate="1" x="162.56" y="231.14" smashed="yes">
@@ -28598,7 +28598,7 @@ control of J-Link OB Debugger</text>
 <instance part="GND18" gate="1" x="297.18" y="170.18" smashed="yes">
 <attribute name="VALUE" x="297.18" y="169.926" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="VDDJ_EN" gate="G$1" x="297.18" y="162.56" smashed="yes">
+<instance part="VJ_CTRL" gate="G$1" x="297.18" y="162.56" smashed="yes">
 <attribute name="NAME" x="297.18" y="165.354" size="1.778" layer="95" font="vector" align="center"/>
 </instance>
 <instance part="LOGO1" gate="G$1" x="373.38" y="33.02" smashed="yes"/>
@@ -28993,7 +28993,7 @@ control of J-Link OB Debugger</text>
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="246.38" x2="177.8" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="CHG_I" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="248.92" x2="175.26" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -29001,13 +29001,13 @@ control of J-Link OB Debugger</text>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="246.38" x2="162.56" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="3"/>
+<pinref part="CHG_I" gate="G$1" pin="3"/>
 <wire x1="162.56" y1="248.92" x2="165.1" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="CHG_I" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="254" x2="170.18" y2="256.54" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="PROG"/>
 <wire x1="170.18" y1="256.54" x2="154.94" y2="256.54" width="0.1524" layer="91"/>
@@ -29258,7 +29258,7 @@ control of J-Link OB Debugger</text>
 <label x="33.02" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="VDDJ_EN" gate="G$1" pin="1"/>
+<pinref part="VJ_CTRL" gate="G$1" pin="1"/>
 <wire x1="292.1" y1="162.56" x2="289.56" y2="162.56" width="0.1524" layer="91" style="longdash"/>
 <label x="289.56" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -29709,7 +29709,7 @@ control of J-Link OB Debugger</text>
 <label x="294.64" y="187.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="VDDJ_EN" gate="G$1" pin="2"/>
+<pinref part="VJ_CTRL" gate="G$1" pin="2"/>
 <wire x1="302.26" y1="162.56" x2="304.8" y2="162.56" width="0.1524" layer="91" style="longdash"/>
 <label x="304.8" y="162.56" size="1.27" layer="95" xref="yes"/>
 </segment>
