@@ -4681,6 +4681,39 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
+<deviceset name="4.7KOHM" prefix="R">
+<description>&lt;h3&gt;4.7kΩ resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-1/10W-1%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-07857"/>
+<attribute name="VALUE" value="4.7k"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402T-1/16W-1%" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-15343" constant="no"/>
+<attribute name="VALUE" value="4.7k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="SparkFun-DiscreteSemi">
@@ -5437,6 +5470,73 @@ Used in manufacturing several products at SparkFun.
 <technology name="">
 <attribute name="PROD_ID" value="DIO-16514" constant="no"/>
 <attribute name="VALUE" value="Yellow" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED-BLUE" prefix="D" uservalue="yes">
+<description>&lt;h3&gt;Blue SMD LED&lt;/h3&gt;
+&lt;p&gt;Used in manufacturing of various products at SparkFun&lt;/p&gt;
+
+
+&lt;p&gt;&lt;b&gt;Packages:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;0603&lt;/b&gt; - SMD 0603 package &lt;a href="http://www.digikey.com/product-detail/en/SMLE12BC7TT86/511-1589-2-ND/1641808"&gt;[Product Link]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;1206&lt;/b&gt; - SMD1206  package &lt;a href="http://www.digikey.com/product-detail/en/lite-on-inc/LTST-C150TBKT/160-1643-1-ND/573584"&gt;[Product Link]&lt;/li&gt;
+&lt;ul&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13711”&gt;ESP8266 Thing-Dev Board&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/12757”&gt;RedBoard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="0603" package="LED-0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-08575"/>
+<attribute name="VALUE" value="BLUE"/>
+</technology>
+</technologies>
+</device>
+<device name="1206" package="LED-1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-09911"/>
+<attribute name="VALUE" value="BLUE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_HIDDENSILK" package="LED-1206-HIDDENSILK">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-09911" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-WE" package="LED-0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-16513" constant="no"/>
+<attribute name="VALUE" value="Blue" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6287,6 +6387,9 @@ enablement and scalability of the Kinetis family.</description>
 <part name="C7" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-6.3V-10%-X7R" value="0.1uF"/>
 <part name="SUPPLY28" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="D4" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
+<part name="R11" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0402T-1/16W-1%" value="4.7k"/>
+<part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6295,11 +6398,11 @@ enablement and scalability of the Kinetis family.</description>
 <text x="157.48" y="274.32" size="2.54" layer="94" font="vector" align="center">Battery Charger</text>
 <text x="269.24" y="274.32" size="2.54" layer="94" font="vector" align="center">Battery Fuel Gague</text>
 <text x="365.76" y="274.32" size="2.54" layer="94" font="vector" align="center">USB-C Connector</text>
-<wire x1="0" y1="215.9" x2="81.28" y2="215.9" width="0.2032" layer="97" style="longdash"/>
-<wire x1="81.28" y1="215.9" x2="233.68" y2="215.9" width="0.2032" layer="97" style="longdash"/>
+<wire x1="0" y1="215.9" x2="99.06" y2="215.9" width="0.2032" layer="97" style="longdash"/>
+<wire x1="99.06" y1="215.9" x2="233.68" y2="215.9" width="0.2032" layer="97" style="longdash"/>
 <wire x1="233.68" y1="215.9" x2="299.72" y2="215.9" width="0.2032" layer="97" style="longdash"/>
 <wire x1="299.72" y1="215.9" x2="431.8" y2="215.9" width="0.2032" layer="97" style="longdash"/>
-<wire x1="81.28" y1="215.9" x2="81.28" y2="279.4" width="0.2032" layer="97" style="longdash"/>
+<wire x1="99.06" y1="215.9" x2="99.06" y2="279.4" width="0.2032" layer="97" style="longdash"/>
 <wire x1="233.68" y1="279.4" x2="233.68" y2="215.9" width="0.2032" layer="97" style="longdash"/>
 <wire x1="299.72" y1="215.9" x2="299.72" y2="279.4" width="0.2032" layer="97" style="longdash"/>
 <text x="271.78" y="231.14" size="2.032" layer="97" font="vector" align="center">I2C Address: 0x36</text>
@@ -6310,7 +6413,7 @@ R_PROG=2k : I_CHG=500mA
 R_PROG=10k: I_CHG=100mA</text>
 <text x="170.18" y="223.52" size="2.032" layer="97" font="vector" align="center">Cut and resolder jumper
 to change charge current</text>
-<text x="50.8" y="226.06" size="2.032" layer="97" font="vector" align="center">VIN: 2.5V-6V
+<text x="66.04" y="226.06" size="2.032" layer="97" font="vector" align="center">VIN: 2.5V-6V
 600mA out</text>
 <text x="335.28" y="228.6" size="2.032" layer="97" font="vector" align="center">Cut trace to isolate
 shield from GND</text>
@@ -6359,15 +6462,15 @@ I2C pullup resistors</text>
 <instance part="SUPPLY8" gate="G$1" x="185.42" y="261.62" smashed="yes">
 <attribute name="VALUE" x="185.42" y="264.414" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U2" gate="G$1" x="50.8" y="243.84" smashed="yes">
-<attribute name="NAME" x="43.18" y="251.714" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="43.18" y="235.966" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="U2" gate="G$1" x="66.04" y="243.84" smashed="yes">
+<attribute name="NAME" x="58.42" y="251.714" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="58.42" y="235.966" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="SUPPLY9" gate="G$1" x="60.96" y="251.46" smashed="yes">
-<attribute name="VALUE" x="60.96" y="254.254" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY9" gate="G$1" x="76.2" y="251.46" smashed="yes">
+<attribute name="VALUE" x="76.2" y="254.254" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND6" gate="1" x="38.1" y="233.68" smashed="yes">
-<attribute name="VALUE" x="38.1" y="233.426" size="1.778" layer="96" align="top-center"/>
+<instance part="GND6" gate="1" x="53.34" y="233.68" smashed="yes">
+<attribute name="VALUE" x="53.34" y="233.426" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="Q1" gate="G$1" x="20.32" y="256.54" smashed="yes">
 <attribute name="NAME" x="25.4" y="259.08" size="1.778" layer="95" font="vector"/>
@@ -6376,16 +6479,16 @@ I2C pullup resistors</text>
 <instance part="SUPPLY14" gate="G$1" x="22.86" y="264.16" smashed="yes">
 <attribute name="VALUE" x="22.86" y="266.954" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="R2" gate="G$1" x="30.48" y="243.84" smashed="yes">
-<attribute name="NAME" x="30.48" y="245.364" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="30.48" y="242.316" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="R2" gate="G$1" x="45.72" y="243.84" smashed="yes">
+<attribute name="NAME" x="45.72" y="245.364" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="45.72" y="242.316" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="C13" gate="G$1" x="22.86" y="236.22" smashed="yes">
-<attribute name="NAME" x="24.384" y="239.141" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="24.384" y="234.061" size="1.778" layer="96" font="vector"/>
+<instance part="C13" gate="G$1" x="38.1" y="236.22" smashed="yes">
+<attribute name="NAME" x="39.624" y="239.141" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="39.624" y="234.061" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND25" gate="1" x="22.86" y="228.6" smashed="yes">
-<attribute name="VALUE" x="22.86" y="228.346" size="1.778" layer="96" align="top-center"/>
+<instance part="GND25" gate="1" x="38.1" y="228.6" smashed="yes">
+<attribute name="VALUE" x="38.1" y="228.346" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="D1" gate="G$1" x="17.78" y="248.92" smashed="yes">
 <attribute name="NAME" x="19.812" y="246.38" size="1.778" layer="95" font="vector" rot="R270"/>
@@ -6401,12 +6504,12 @@ I2C pullup resistors</text>
 <instance part="GND26" gate="1" x="12.7" y="231.14" smashed="yes">
 <attribute name="VALUE" x="12.7" y="230.886" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C14" gate="G$1" x="60.96" y="241.3" smashed="yes">
-<attribute name="NAME" x="62.484" y="244.221" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="62.484" y="239.141" size="1.778" layer="96" font="vector"/>
+<instance part="C14" gate="G$1" x="76.2" y="241.3" smashed="yes">
+<attribute name="NAME" x="77.724" y="244.221" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="77.724" y="239.141" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND27" gate="1" x="60.96" y="233.68" smashed="yes">
-<attribute name="VALUE" x="60.96" y="233.426" size="1.778" layer="96" align="top-center"/>
+<instance part="GND27" gate="1" x="76.2" y="233.68" smashed="yes">
+<attribute name="VALUE" x="76.2" y="233.426" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="U4" gate="G$1" x="144.78" y="256.54" smashed="yes">
 <attribute name="NAME" x="137.16" y="262.128" size="1.778" layer="95"/>
@@ -6693,6 +6796,17 @@ I2C pullup resistors</text>
 <instance part="GND17" gate="1" x="193.04" y="106.68" smashed="yes">
 <attribute name="VALUE" x="193.04" y="106.426" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="D4" gate="G$1" x="60.96" y="162.56" smashed="yes">
+<attribute name="NAME" x="57.531" y="157.988" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="62.865" y="157.988" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+</instance>
+<instance part="R11" gate="G$1" x="60.96" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="59.436" y="149.86" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="62.484" y="149.86" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="GND9" gate="1" x="60.96" y="139.7" smashed="yes">
+<attribute name="VALUE" x="60.96" y="139.446" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6706,14 +6820,14 @@ I2C pullup resistors</text>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="38.1" y1="236.22" x2="38.1" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="236.22" x2="53.34" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="GND"/>
-<wire x1="38.1" y1="238.76" x2="40.64" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="238.76" x2="55.88" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND25" gate="1" pin="GND"/>
 <pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="231.14" x2="22.86" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="231.14" x2="38.1" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
@@ -6723,7 +6837,7 @@ I2C pullup resistors</text>
 <segment>
 <pinref part="GND27" gate="1" pin="GND"/>
 <pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="236.22" x2="60.96" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="236.22" x2="76.2" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND28" gate="1" pin="GND"/>
@@ -6885,16 +6999,21 @@ I2C pullup resistors</text>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="109.22" x2="193.04" y2="111.76" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="144.78" x2="60.96" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="OUT"/>
-<wire x1="58.42" y1="248.92" x2="60.96" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="248.92" x2="76.2" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
-<wire x1="60.96" y1="248.92" x2="60.96" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="248.92" x2="76.2" y2="251.46" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="246.38" x2="60.96" y2="248.92" width="0.1524" layer="91"/>
-<junction x="60.96" y="248.92"/>
+<wire x1="76.2" y1="246.38" x2="76.2" y2="248.92" width="0.1524" layer="91"/>
+<junction x="76.2" y="248.92"/>
 </segment>
 <segment>
 <wire x1="365.76" y1="170.18" x2="368.3" y2="170.18" width="0.1524" layer="91"/>
@@ -7098,11 +7217,11 @@ I2C pullup resistors</text>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="U2" gate="G$1" pin="EN"/>
-<wire x1="35.56" y1="243.84" x2="38.1" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="243.84" x2="40.64" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="243.84" x2="38.1" y2="251.46" width="0.1524" layer="91"/>
-<junction x="38.1" y="243.84"/>
-<label x="38.1" y="251.46" size="1.27" layer="95" font="vector" rot="R90" xref="yes"/>
+<wire x1="50.8" y1="243.84" x2="53.34" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="243.84" x2="55.88" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="243.84" x2="53.34" y2="251.46" width="0.1524" layer="91"/>
+<junction x="53.34" y="243.84"/>
+<label x="53.34" y="251.46" size="1.27" layer="95" font="vector" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="EN"/>
@@ -7122,23 +7241,6 @@ I2C pullup resistors</text>
 <pinref part="U5" gate="U1" pin="SCL"/>
 <wire x1="281.94" y1="248.92" x2="284.48" y2="248.92" width="0.1524" layer="91"/>
 <label x="284.48" y="248.92" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="C13" gate="G$1" pin="1"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="241.3" x2="22.86" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="243.84" x2="25.4" y2="243.84" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="S"/>
-<wire x1="22.86" y1="248.92" x2="22.86" y2="251.46" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="243.84" x2="22.86" y2="248.92" width="0.1524" layer="91"/>
-<junction x="22.86" y="243.84"/>
-<junction x="22.86" y="248.92"/>
-<pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="22.86" y1="248.92" x2="20.32" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="JP8" gate="JP1" pin="1"/>
-<wire x1="25.4" y1="248.92" x2="22.86" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -7218,7 +7320,15 @@ I2C pullup resistors</text>
 <segment>
 <pinref part="JP8" gate="JP1" pin="2"/>
 <pinref part="U2" gate="G$1" pin="IN"/>
-<wire x1="35.56" y1="248.92" x2="40.64" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="248.92" x2="38.1" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="248.92" x2="55.88" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="241.3" x2="38.1" y2="243.84" width="0.1524" layer="91"/>
+<junction x="38.1" y="248.92"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="243.84" x2="38.1" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="243.84" x2="38.1" y2="243.84" width="0.1524" layer="91"/>
+<junction x="38.1" y="243.84"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -7547,22 +7657,12 @@ I2C pullup resistors</text>
 </net>
 <net name="CTS" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PA08"/>
-<wire x1="76.2" y1="86.36" x2="78.74" y2="86.36" width="0.1524" layer="91"/>
-<label x="78.74" y="86.36" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U6" gate="G$1" pin="PTB3"/>
 <wire x1="281.94" y1="109.22" x2="284.48" y2="109.22" width="0.1524" layer="91"/>
 <label x="284.48" y="109.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RTS" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PA07"/>
-<wire x1="76.2" y1="88.9" x2="78.74" y2="88.9" width="0.1524" layer="91"/>
-<label x="78.74" y="88.9" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="PTB2"/>
 <wire x1="281.94" y1="111.76" x2="284.48" y2="111.76" width="0.1524" layer="91"/>
@@ -7744,6 +7844,41 @@ I2C pullup resistors</text>
 <pinref part="J1" gate="G$1" pin="GPIO2"/>
 <wire x1="393.7" y1="73.66" x2="396.24" y2="73.66" width="0.1524" layer="91"/>
 <label x="396.24" y="73.66" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PA07"/>
+<wire x1="76.2" y1="88.9" x2="78.74" y2="88.9" width="0.1524" layer="91"/>
+<label x="78.74" y="88.9" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="D4" gate="G$1" pin="C"/>
+<wire x1="60.96" y1="154.94" x2="60.96" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PA08"/>
+<wire x1="76.2" y1="86.36" x2="78.74" y2="86.36" width="0.1524" layer="91"/>
+<label x="78.74" y="86.36" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="60.96" y1="165.1" x2="60.96" y2="167.64" width="0.1524" layer="91"/>
+<label x="60.96" y="167.64" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="Q1" gate="G$1" pin="S"/>
+<wire x1="22.86" y1="248.92" x2="22.86" y2="251.46" width="0.1524" layer="91"/>
+<junction x="22.86" y="248.92"/>
+<pinref part="JP8" gate="JP1" pin="1"/>
+<wire x1="25.4" y1="248.92" x2="22.86" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="248.92" x2="20.32" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
