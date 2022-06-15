@@ -24785,33 +24785,12 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="V_REG_AP2112" prefix="U">
-<description>&lt;h3&gt;AP2112 - 600mA CMOS LDO Regulator w/ Enable&lt;/h3&gt;
-&lt;p&gt;The AP2112 is CMOS process low dropout linear regulator with enable function, the regulator delivers a guaranteed 600mA (min.) continuous load current.&lt;/p&gt;
-&lt;p&gt;Features&lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Output Voltage Accuracy: ±1.5% &lt;/li&gt;
-&lt;li&gt;Output Current: 600mA (Min.) &lt;/li&gt;
-&lt;li&gt;Foldback Short Current Protection: 50mA &lt;/li&gt;
-&lt;li&gt;Enable Function to Turn ON/OFF VOUT&lt;/li&gt;
-&lt;li&gt;Low Dropout Voltage (3.3V): 250mV (Typ.) @IOUT=600mA &lt;/li&gt;
-&lt;li&gt;Excellent Load Regulation: 0.2%/A (Typ.) &lt;/li&gt;
-&lt;li&gt;Excellent Line Regulation: 0.02%/V (Typ.) &lt;/li&gt;
-&lt;li&gt;Low Quiescent Current: 55μA (Typ.)&lt;/li&gt;
-&lt;li&gt;Low Standby Current: 0.01μA (Typ.)&lt;/li&gt;
-&lt;li&gt;Low Output Noise: 50μVRMS &lt;/li&gt;
-&lt;li&gt;PSRR: 100Hz -65dB, 1kHz -65dB &lt;/li&gt;
-&lt;li&gt; OTSD Protection &lt;/li&gt;
-&lt;li&gt;Stable  with  1.0μF Flexible Cap: Ceramic, Tantalum and Aluminum Electrolytic &lt;/li&gt;
-&lt;li&gt;Operation Temperature Range: -40°C to 85°C &lt;/li&gt;
-&lt;li&gt;ESD: MM 400V, HBM 4000V&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;</description>
+<deviceset name="XC6222" prefix="U">
 <gates>
 <gate name="G$1" symbol="V-REG-LDO_NO-BP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="K-3.3V" package="SOT23-5">
+<device name="B331MR-G" package="SOT23-5">
 <connects>
 <connect gate="G$1" pin="EN" pad="3"/>
 <connect gate="G$1" pin="GND" pad="2"/>
@@ -24820,8 +24799,9 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="VREG-12457"/>
-<attribute name="VALUE" value="3.3V"/>
+<attribute name="IOUT" value="700mA" constant="no"/>
+<attribute name="PROD_ID" value="VREG-16775" constant="no"/>
+<attribute name="VOUT" value="3.3V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -28030,7 +28010,7 @@ enablement and scalability of the Kinetis family.</description>
 <part name="J4" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="V_BATT" device=""/>
-<part name="U2" library="SparkFun-IC-Power" deviceset="V_REG_AP2112" device="K-3.3V" value="3.3V"/>
+<part name="U2" library="SparkFun-IC-Power" deviceset="XC6222" device="B331MR-G" value="XC6222B331MR-G"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET_PCH" device="-DMG2305UX-7" value="20V/4.2A/52mΩ/1.4W"/>
@@ -28167,7 +28147,7 @@ R_PROG=10k: I_CHG=100mA</text>
 <text x="170.18" y="223.52" size="2.032" layer="97" font="vector" align="center">Cut and resolder jumper
 to change charge current</text>
 <text x="66.04" y="226.06" size="2.032" layer="97" font="vector" align="center">VIN: 2.5V-6V
-600mA out</text>
+700mA out</text>
 <text x="335.28" y="228.6" size="2.032" layer="97" font="vector" align="center">Cut trace to isolate
 shield from GND</text>
 <text x="40.64" y="264.16" size="2.032" layer="97" font="vector" align="center">Cut trace to
@@ -28238,7 +28218,6 @@ control of J-Link OB Debugger</text>
 </instance>
 <instance part="U2" gate="G$1" x="66.04" y="243.84" smashed="yes">
 <attribute name="NAME" x="58.42" y="251.714" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="58.42" y="235.966" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="SUPPLY9" gate="G$1" x="76.2" y="251.46" smashed="yes">
 <attribute name="VALUE" x="76.2" y="254.254" size="1.778" layer="96" align="bottom-center"/>

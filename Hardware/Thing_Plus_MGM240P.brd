@@ -12078,10 +12078,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="SF_ID" value="PRT-08612" x="1.27" y="0" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="3.175" y="16.129" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="U2" library="SparkFun-IC-Power" package="SOT23-5" value="3.3V" x="17.399" y="19.05" smashed="yes" rot="R90">
+<element name="U2" library="SparkFun-IC-Power" package="SOT23-5" value="XC6222B331MR-G" x="17.399" y="19.05" smashed="yes" rot="R90">
+<attribute name="IOUT" value="700mA" x="17.399" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="15.24" y="17.272" size="0.6096" layer="25" ratio="20" rot="R90"/>
-<attribute name="PROD_ID" value="VREG-12457" x="7.239" y="-20.32" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="VALUE" x="20.193" y="17.272" size="0.6096" layer="27" ratio="20" rot="R90"/>
+<attribute name="PROD_ID" value="VREG-16775" x="7.239" y="-20.32" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="VOUT" value="3.3V" x="17.399" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="Q1" library="SparkFun-DiscreteSemi" package="SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="17.78" y="7.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="17.78" y="5.969" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
@@ -12926,10 +12927,12 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="19.05" y1="11.43" x2="19.05" y2="12.708" width="0.254" layer="1"/>
 <wire x1="19.55" y1="13.208" x2="19.55" y2="15.24" width="0.254" layer="1"/>
 <wire x1="19.55" y1="13.208" x2="19.05" y2="12.708" width="0.254" layer="1"/>
-<wire x1="19.55" y1="15.24" x2="19.55" y2="17.2491" width="0.254" layer="1"/>
-<wire x1="19.55" y1="17.2491" x2="18.6991" y2="18.1" width="0.254" layer="1"/>
-<wire x1="18.6991" y1="18.1" x2="19.489" y2="18.1" width="0.127" layer="1"/>
-<wire x1="19.489" y1="18.1" x2="19.939" y2="18.55" width="0.127" layer="1"/>
+<wire x1="19.55" y1="15.24" x2="19.55" y2="17.5031" width="0.254" layer="1"/>
+<wire x1="19.55" y1="17.5031" x2="18.9531" y2="18.1" width="0.254" layer="1"/>
+<wire x1="18.9531" y1="18.1" x2="18.6991" y2="18.1" width="0.254" layer="1"/>
+<wire x1="18.6991" y1="18.1" x2="18.981" y2="18.1" width="0.127" layer="1"/>
+<wire x1="19.431" y1="18.55" x2="19.939" y2="18.55" width="0.127" layer="1"/>
+<wire x1="19.431" y1="18.55" x2="18.981" y2="18.1" width="0.127" layer="1"/>
 <wire x1="19.05" y1="11.43" x2="19.812" y2="11.43" width="0.254" layer="16"/>
 </signal>
 <signal name="N$11">
