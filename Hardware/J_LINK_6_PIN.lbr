@@ -197,6 +197,8 @@
 <rectangle x1="-0.889" y1="-0.635" x2="-0.381" y2="0.635" layer="41"/>
 <rectangle x1="0.381" y1="-0.635" x2="0.889" y2="0.635" layer="41"/>
 <rectangle x1="-1.27" y1="-0.254" x2="1.27" y2="0.254" layer="41"/>
+<text x="0" y="1.27" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.27" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
