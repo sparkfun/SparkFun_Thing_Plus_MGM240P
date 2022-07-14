@@ -16344,7 +16344,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="5.7404" y1="22.42405625" x2="5.7404" y2="17.0364" width="0.127" layer="16"/>
 <wire x1="7.874" y1="25.781" x2="5.3721" y2="23.2791" width="0.127" layer="16"/>
 </signal>
-<signal name="TMS/SWDIO/PA02">
+<signal name="SWDIO/PA02">
 <contactref element="U1" pad="9"/>
 <contactref element="J7" pad="7"/>
 <wire x1="5.78" y1="49.6" x2="11.614" y2="49.6" width="0.127" layer="1"/>
@@ -16647,7 +16647,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="14.48041875" y1="23.18258125" x2="12.64158125" y2="23.18258125" width="0.18541875" layer="1"/>
 <wire x1="15.42541875" y1="30.29458125" x2="15.42541875" y2="24.12758125" width="0.18541875" layer="1"/>
 </signal>
-<signal name="TDO/SWO/PA03">
+<signal name="SWO/PA03">
 <contactref element="U1" pad="10"/>
 <contactref element="J7" pad="6"/>
 <wire x1="5.78" y1="48.6" x2="10.582" y2="48.6" width="0.127" layer="1"/>
@@ -16668,7 +16668,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="10.82315" y1="37.78830625" x2="11.684" y2="36.92745625" width="0.127" layer="16"/>
 <wire x1="11.684" y1="36.92745625" x2="11.684" y2="35.814" width="0.127" layer="16"/>
 </signal>
-<signal name="TCK/SWCLK/PA01">
+<signal name="SWCLK/PA01">
 <contactref element="U1" pad="8"/>
 <contactref element="J7" pad="8"/>
 <wire x1="5.78" y1="50.6" x2="12.646" y2="50.6" width="0.127" layer="1"/>
