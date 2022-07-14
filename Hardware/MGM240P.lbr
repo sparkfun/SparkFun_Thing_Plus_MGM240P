@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -239,42 +239,42 @@
 </packages>
 <symbols>
 <symbol name="MGM240P">
-<wire x1="-10.16" y1="25.4" x2="-10.16" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-25.4" x2="10.16" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-25.4" x2="10.16" y2="25.4" width="0.254" layer="94"/>
-<wire x1="10.16" y1="25.4" x2="-10.16" y2="25.4" width="0.254" layer="94"/>
-<pin name="GND" x="-12.7" y="-22.86" length="short" direction="pwr"/>
-<pin name="VDD" x="-12.7" y="22.86" length="short" direction="pwr"/>
-<pin name="PA00" x="12.7" y="17.78" length="short" rot="R180"/>
-<pin name="PA01" x="12.7" y="15.24" length="short" rot="R180"/>
-<pin name="PA02" x="12.7" y="12.7" length="short" rot="R180"/>
-<pin name="PA03" x="12.7" y="10.16" length="short" rot="R180"/>
-<pin name="PA04" x="12.7" y="7.62" length="short" rot="R180"/>
-<pin name="PA05" x="12.7" y="5.08" length="short" rot="R180"/>
-<pin name="PA06" x="12.7" y="2.54" length="short" rot="R180"/>
-<pin name="PA07" x="12.7" y="0" length="short" rot="R180"/>
-<pin name="PA08" x="12.7" y="-2.54" length="short" rot="R180"/>
-<pin name="PB00" x="12.7" y="-7.62" length="short" rot="R180"/>
-<pin name="PB01" x="12.7" y="-10.16" length="short" rot="R180"/>
-<pin name="PB02" x="12.7" y="-12.7" length="short" rot="R180"/>
-<pin name="PB03" x="12.7" y="-15.24" length="short" rot="R180"/>
-<pin name="PB04" x="12.7" y="-17.78" length="short" rot="R180"/>
-<pin name="PC00" x="-12.7" y="17.78" length="short"/>
-<pin name="PC01" x="-12.7" y="15.24" length="short"/>
-<pin name="PC02" x="-12.7" y="12.7" length="short"/>
-<pin name="PC03" x="-12.7" y="10.16" length="short"/>
-<pin name="PC04" x="-12.7" y="7.62" length="short"/>
-<pin name="PC05" x="-12.7" y="5.08" length="short"/>
-<pin name="PC06" x="-12.7" y="2.54" length="short"/>
-<pin name="PC07" x="-12.7" y="0" length="short"/>
-<pin name="PD00" x="-12.7" y="-5.08" length="short"/>
-<pin name="PD01" x="-12.7" y="-7.62" length="short"/>
-<pin name="PD02" x="-12.7" y="-10.16" length="short"/>
-<pin name="PD03" x="-12.7" y="-12.7" length="short"/>
-<pin name="!RESET!" x="12.7" y="22.86" length="short" direction="in" rot="R180"/>
-<pin name="RFOUT" x="-12.7" y="-17.78" length="short" direction="out"/>
-<text x="-10.16" y="26.162" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-10.16" y="-27.94" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<wire x1="-15.24" y1="25.4" x2="-15.24" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-25.4" x2="15.24" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-25.4" x2="15.24" y2="25.4" width="0.254" layer="94"/>
+<wire x1="15.24" y1="25.4" x2="-15.24" y2="25.4" width="0.254" layer="94"/>
+<pin name="GND" x="-17.78" y="-22.86" length="short" direction="pwr"/>
+<pin name="VDD" x="-17.78" y="22.86" length="short" direction="pwr"/>
+<pin name="PA00" x="17.78" y="17.78" length="short" rot="R180"/>
+<pin name="TCK/SWCLK/PA01" x="17.78" y="15.24" length="short" rot="R180"/>
+<pin name="TMS/SWDIO/PA02" x="17.78" y="12.7" length="short" rot="R180"/>
+<pin name="TDO/SWO/PA03" x="17.78" y="10.16" length="short" rot="R180"/>
+<pin name="TDI/PA04" x="17.78" y="7.62" length="short" rot="R180"/>
+<pin name="PA05" x="17.78" y="5.08" length="short" rot="R180"/>
+<pin name="PA06" x="17.78" y="2.54" length="short" rot="R180"/>
+<pin name="PA07" x="17.78" y="0" length="short" rot="R180"/>
+<pin name="PA08" x="17.78" y="-2.54" length="short" rot="R180"/>
+<pin name="VDAC0_CH0/PB00" x="17.78" y="-7.62" length="short" rot="R180"/>
+<pin name="VDAC0_CH1/PB01" x="17.78" y="-10.16" length="short" rot="R180"/>
+<pin name="VDAC1_CH0/PB02" x="17.78" y="-12.7" length="short" rot="R180"/>
+<pin name="VDAC1_CH1/PB03" x="17.78" y="-15.24" length="short" rot="R180"/>
+<pin name="PB04" x="17.78" y="-17.78" length="short" rot="R180"/>
+<pin name="PC00" x="-17.78" y="17.78" length="short"/>
+<pin name="PC01" x="-17.78" y="15.24" length="short"/>
+<pin name="PC02" x="-17.78" y="12.7" length="short"/>
+<pin name="PC03" x="-17.78" y="10.16" length="short"/>
+<pin name="PC04" x="-17.78" y="7.62" length="short"/>
+<pin name="PC05" x="-17.78" y="5.08" length="short"/>
+<pin name="PC06" x="-17.78" y="2.54" length="short"/>
+<pin name="PC07" x="-17.78" y="0" length="short"/>
+<pin name="PD00" x="-17.78" y="-5.08" length="short"/>
+<pin name="PD01" x="-17.78" y="-7.62" length="short"/>
+<pin name="PD02" x="-17.78" y="-10.16" length="short"/>
+<pin name="PD03" x="-17.78" y="-12.7" length="short"/>
+<pin name="!RESET!" x="17.78" y="22.86" length="short" direction="in" rot="R180"/>
+<pin name="RFOUT" x="-17.78" y="-17.78" length="short" direction="out"/>
+<text x="-15.24" y="26.162" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-15.24" y="-27.94" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -288,18 +288,10 @@
 <connect gate="G$1" pin="!RESET!" pad="31"/>
 <connect gate="G$1" pin="GND" pad="1 14 23 32 34 35 36"/>
 <connect gate="G$1" pin="PA00" pad="7"/>
-<connect gate="G$1" pin="PA01" pad="8"/>
-<connect gate="G$1" pin="PA02" pad="9"/>
-<connect gate="G$1" pin="PA03" pad="10"/>
-<connect gate="G$1" pin="PA04" pad="11"/>
 <connect gate="G$1" pin="PA05" pad="12"/>
 <connect gate="G$1" pin="PA06" pad="13"/>
 <connect gate="G$1" pin="PA07" pad="16"/>
 <connect gate="G$1" pin="PA08" pad="17"/>
-<connect gate="G$1" pin="PB00" pad="6"/>
-<connect gate="G$1" pin="PB01" pad="5"/>
-<connect gate="G$1" pin="PB02" pad="4"/>
-<connect gate="G$1" pin="PB03" pad="3"/>
 <connect gate="G$1" pin="PB04" pad="2"/>
 <connect gate="G$1" pin="PC00" pad="22"/>
 <connect gate="G$1" pin="PC01" pad="24"/>
@@ -314,6 +306,14 @@
 <connect gate="G$1" pin="PD02" pad="19"/>
 <connect gate="G$1" pin="PD03" pad="18"/>
 <connect gate="G$1" pin="RFOUT" pad="33"/>
+<connect gate="G$1" pin="TCK/SWCLK/PA01" pad="8"/>
+<connect gate="G$1" pin="TDI/PA04" pad="11"/>
+<connect gate="G$1" pin="TDO/SWO/PA03" pad="10"/>
+<connect gate="G$1" pin="TMS/SWDIO/PA02" pad="9"/>
+<connect gate="G$1" pin="VDAC0_CH0/PB00" pad="6"/>
+<connect gate="G$1" pin="VDAC0_CH1/PB01" pad="5"/>
+<connect gate="G$1" pin="VDAC1_CH0/PB02" pad="4"/>
+<connect gate="G$1" pin="VDAC1_CH1/PB03" pad="3"/>
 <connect gate="G$1" pin="VDD" pad="15"/>
 </connects>
 <technologies>
