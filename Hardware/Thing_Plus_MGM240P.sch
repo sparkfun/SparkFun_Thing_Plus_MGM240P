@@ -28972,22 +28972,22 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <text x="-17.78" y="-22.86" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 <symbol name="EFM32GG12B410F1024GL120_D">
-<pin name="VREGI" x="-12.7" y="-2.54" length="short"/>
-<pin name="VREGO" x="-12.7" y="-5.08" length="short"/>
-<pin name="VBUS" x="-12.7" y="0" length="short"/>
-<pin name="VSS" x="-12.7" y="-10.16" length="short"/>
-<pin name="IOVDD1" x="-12.7" y="7.62" length="short"/>
-<pin name="IOVDD0" x="-12.7" y="10.16" length="short"/>
-<pin name="DVDD" x="-12.7" y="5.08" length="short"/>
-<pin name="DECOUPLE" x="12.7" y="-7.62" length="short" rot="R180"/>
-<pin name="!RESET!" x="12.7" y="10.16" length="short" rot="R180"/>
-<pin name="AVDD" x="-12.7" y="2.54" length="short"/>
-<wire x1="-10.16" y1="12.7" x2="-10.16" y2="-12.7" width="0.1524" layer="94"/>
-<wire x1="-10.16" y1="-12.7" x2="10.16" y2="-12.7" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="-12.7" x2="10.16" y2="12.7" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="12.7" x2="-10.16" y2="12.7" width="0.1524" layer="94"/>
-<text x="-10.16" y="15.24" size="1.778" layer="95" font="vector" align="top-left">&gt;NAME</text>
-<text x="-10.16" y="-15.24" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<pin name="VREGI" x="-15.24" y="-2.54" length="short"/>
+<pin name="VREGO" x="-15.24" y="-5.08" length="short"/>
+<pin name="VBUS" x="-15.24" y="0" length="short"/>
+<pin name="VSS" x="-15.24" y="-10.16" length="short"/>
+<pin name="IOVDD1" x="-15.24" y="7.62" length="short"/>
+<pin name="IOVDD0" x="-15.24" y="10.16" length="short"/>
+<pin name="DVDD" x="-15.24" y="5.08" length="short"/>
+<pin name="DECOUPLE" x="15.24" y="-7.62" length="short" rot="R180"/>
+<pin name="!RESET!" x="15.24" y="10.16" length="short" rot="R180"/>
+<pin name="AVDD" x="-15.24" y="2.54" length="short"/>
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="12.7" y2="12.7" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="-12.7" y2="12.7" width="0.1524" layer="94"/>
+<text x="-12.7" y="15.24" size="1.778" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="-12.7" y="-15.24" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -28996,7 +28996,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <gate name="A" symbol="EFM32GG12B410F1024GL120_A" x="-68.58" y="-2.54"/>
 <gate name="B" symbol="EFM32GG12B410F1024GL120_B" x="-22.86" y="-2.54"/>
 <gate name="C" symbol="EFM32GG12B410F1024GL120_C" x="25.4" y="-2.54"/>
-<gate name="D" symbol="EFM32GG12B410F1024GL120_D" x="71.12" y="0"/>
+<gate name="D" symbol="EFM32GG12B410F1024GL120_D" x="73.66" y="0"/>
 </gates>
 <devices>
 <device name="" package="EFM32GG12B410F1024GL120">
@@ -29995,7 +29995,7 @@ cause high current flow!</text>
 <attribute name="NAME" x="269.24" y="121.92" size="1.778" layer="95" font="vector" align="top-left"/>
 <attribute name="VALUE" x="269.24" y="73.66" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="U3" gate="D" x="160.02" y="27.94" smashed="yes">
+<instance part="U3" gate="D" x="162.56" y="27.94" smashed="yes">
 <attribute name="NAME" x="149.86" y="43.18" size="1.778" layer="95" font="vector" align="top-left"/>
 <attribute name="VALUE" x="149.86" y="12.7" size="1.778" layer="96" font="vector"/>
 </instance>
@@ -30031,29 +30031,29 @@ cause high current flow!</text>
 <attribute name="NAME" x="239.776" y="124.46" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="242.824" y="124.46" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="TP7" gate="G$1" x="243.84" y="177.8" smashed="yes">
-<attribute name="NAME" x="243.84" y="175.26" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="TP8" gate="G$1" x="243.84" y="172.72" smashed="yes">
-<attribute name="NAME" x="243.84" y="170.18" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="TP9" gate="G$1" x="243.84" y="167.64" smashed="yes">
-<attribute name="NAME" x="243.84" y="165.1" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="TP10" gate="G$1" x="243.84" y="162.56" smashed="yes">
-<attribute name="NAME" x="243.84" y="160.02" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="TP11" gate="G$1" x="259.08" y="177.8" smashed="yes" rot="R180">
+<instance part="TP7" gate="G$1" x="259.08" y="177.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="254" y="175.26" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="TP12" gate="G$1" x="259.08" y="172.72" smashed="yes" rot="R180">
+<instance part="TP8" gate="G$1" x="259.08" y="172.72" smashed="yes" rot="R180">
 <attribute name="NAME" x="254" y="170.18" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="TP9" gate="G$1" x="243.84" y="177.8" smashed="yes">
+<attribute name="NAME" x="243.84" y="175.26" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="TP10" gate="G$1" x="243.84" y="172.72" smashed="yes">
+<attribute name="NAME" x="243.84" y="170.18" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="TP11" gate="G$1" x="259.08" y="157.48" smashed="yes" rot="R180">
+<attribute name="NAME" x="254" y="154.94" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="TP12" gate="G$1" x="243.84" y="157.48" smashed="yes">
+<attribute name="NAME" x="243.84" y="154.94" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="TP13" gate="G$1" x="259.08" y="167.64" smashed="yes" rot="R180">
 <attribute name="NAME" x="254" y="165.1" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="TP14" gate="G$1" x="259.08" y="162.56" smashed="yes" rot="R180">
-<attribute name="NAME" x="254" y="160.02" size="1.778" layer="95" font="vector"/>
+<instance part="TP14" gate="G$1" x="243.84" y="167.64" smashed="yes">
+<attribute name="NAME" x="243.84" y="165.1" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="U6" gate="G$1" x="287.02" y="25.4" smashed="yes">
 <attribute name="NAME" x="279.4" y="35.56" size="1.778" layer="95" font="vector" align="top-left"/>
@@ -31143,8 +31143,8 @@ cause high current flow!</text>
 </net>
 <net name="!DBG_RESET!" class="0">
 <segment>
-<label x="175.26" y="38.1" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="172.72" y1="38.1" x2="175.26" y2="38.1" width="0.1524" layer="91"/>
+<label x="180.34" y="38.1" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="177.8" y1="38.1" x2="180.34" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="U3" gate="D" pin="!RESET!"/>
 </segment>
 <segment>
@@ -31404,8 +31404,8 @@ cause high current flow!</text>
 </segment>
 <segment>
 <pinref part="TP14" gate="G$1" pin="1"/>
-<wire x1="259.08" y1="162.56" x2="261.62" y2="162.56" width="0.1524" layer="91"/>
-<label x="261.62" y="162.56" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="243.84" y1="167.64" x2="241.3" y2="167.64" width="0.1524" layer="91"/>
+<label x="241.3" y="167.64" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DBG_CS" class="0">
@@ -31416,8 +31416,8 @@ cause high current flow!</text>
 </segment>
 <segment>
 <pinref part="TP10" gate="G$1" pin="1"/>
-<wire x1="243.84" y1="162.56" x2="241.3" y2="162.56" width="0.1524" layer="91"/>
-<label x="241.3" y="162.56" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="243.84" y1="172.72" x2="241.3" y2="172.72" width="0.1524" layer="91"/>
+<label x="241.3" y="172.72" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="241.3" y1="17.78" x2="243.84" y2="17.78" width="0.1524" layer="91"/>
@@ -31438,8 +31438,8 @@ cause high current flow!</text>
 </segment>
 <segment>
 <pinref part="TP9" gate="G$1" pin="1"/>
-<wire x1="243.84" y1="167.64" x2="241.3" y2="167.64" width="0.1524" layer="91"/>
-<label x="241.3" y="167.64" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="243.84" y1="177.8" x2="241.3" y2="177.8" width="0.1524" layer="91"/>
+<label x="241.3" y="177.8" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="241.3" y1="20.32" x2="243.84" y2="20.32" width="0.1524" layer="91"/>
@@ -31455,8 +31455,8 @@ cause high current flow!</text>
 </segment>
 <segment>
 <pinref part="TP8" gate="G$1" pin="1"/>
-<wire x1="243.84" y1="172.72" x2="241.3" y2="172.72" width="0.1524" layer="91"/>
-<label x="241.3" y="172.72" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="259.08" y1="172.72" x2="261.62" y2="172.72" width="0.1524" layer="91"/>
+<label x="261.62" y="172.72" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="241.3" y1="22.86" x2="243.84" y2="22.86" width="0.1524" layer="91"/>
@@ -31477,8 +31477,8 @@ cause high current flow!</text>
 </segment>
 <segment>
 <pinref part="TP7" gate="G$1" pin="1"/>
-<wire x1="243.84" y1="177.8" x2="241.3" y2="177.8" width="0.1524" layer="91"/>
-<label x="241.3" y="177.8" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="259.08" y1="177.8" x2="261.62" y2="177.8" width="0.1524" layer="91"/>
+<label x="261.62" y="177.8" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="241.3" y1="25.4" x2="243.84" y2="25.4" width="0.1524" layer="91"/>
@@ -31521,8 +31521,8 @@ cause high current flow!</text>
 </segment>
 <segment>
 <pinref part="TP12" gate="G$1" pin="1"/>
-<wire x1="259.08" y1="172.72" x2="261.62" y2="172.72" width="0.1524" layer="91"/>
-<label x="261.62" y="172.72" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="243.84" y1="157.48" x2="241.3" y2="157.48" width="0.1524" layer="91"/>
+<label x="241.3" y="157.48" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="SCL"/>
@@ -31538,8 +31538,8 @@ cause high current flow!</text>
 </segment>
 <segment>
 <pinref part="TP11" gate="G$1" pin="1"/>
-<wire x1="259.08" y1="177.8" x2="261.62" y2="177.8" width="0.1524" layer="91"/>
-<label x="261.62" y="177.8" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="259.08" y1="157.48" x2="261.62" y2="157.48" width="0.1524" layer="91"/>
+<label x="261.62" y="157.48" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="SDA"/>
@@ -31567,7 +31567,7 @@ cause high current flow!</text>
 <net name="N$17" class="0">
 <segment>
 <pinref part="U3" gate="D" pin="DECOUPLE"/>
-<wire x1="172.72" y1="20.32" x2="187.96" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="20.32" x2="187.96" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="17.78" x2="187.96" y2="20.32" width="0.1524" layer="91"/>
 </segment>
