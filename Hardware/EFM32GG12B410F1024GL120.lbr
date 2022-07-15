@@ -62,6 +62,13 @@
 <library>
 <packages>
 <package name="EFM32GG12B410F1024GL120">
+<description>&lt;h3&gt;BGA120&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 120&lt;/li&gt;
+&lt;li&gt;Package size: 7mm x 7mm&lt;/li&gt;
+&lt;li&gt;Pin pitch: 0.5mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://www.silabs.com/documents/public/data-sheets/efm32gg12-datasheet.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
 <wire x1="-3.5" y1="3.5" x2="-3.5" y2="-3.5" width="0.1524" layer="51"/>
 <wire x1="-3.5" y1="-3.5" x2="3.5" y2="-3.5" width="0.1524" layer="51"/>
 <wire x1="3.5" y1="-3.5" x2="3.5" y2="3.5" width="0.1524" layer="51"/>
@@ -334,6 +341,16 @@
 </symbols>
 <devicesets>
 <deviceset name="EFM32GG12B410F1024GL120" prefix="U">
+<description>&lt;h3&gt;SiLabs EFM32GG12&lt;/h3&gt;
+&lt;p&gt;
+&lt;li&gt;Energy efficient MCU.&lt;/li&gt;
+&lt;li&gt;Used as a Segger debugger chip on some products.&lt;/li&gt;
+&lt;li&gt;93 GPIO pins&lt;/li&gt;
+&lt;li&gt;32-bit ARM Cortex-M4 processor&lt;/li&gt;
+&lt;li&gt;1MB Flash memory&lt;/li&gt;
+&lt;li&gt;192kB internal RAM&lt;/li&gt;
+&lt;p&gt;
+&lt;li&gt;&lt;a href=”https://www.silabs.com/documents/public/data-sheets/efm32gg12-datasheet.pdf”&gt;Datasheet&lt;/a&gt;&lt;/li&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="A" symbol="EFM32GG12B410F1024GL120_A" x="-68.58" y="-2.54"/>
 <gate name="B" symbol="EFM32GG12B410F1024GL120_B" x="-22.86" y="-2.54"/>
@@ -448,7 +465,9 @@
 <connect gate="D" pin="VSS" pad="C5 C8 H3 J3 K11 K12 L5 L6 M8 M11 N8"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-16889"/>
+</technology>
 </technologies>
 </device>
 </devices>

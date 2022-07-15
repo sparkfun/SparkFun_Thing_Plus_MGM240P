@@ -62,6 +62,13 @@
 <library>
 <packages>
 <package name="M24C02-FMC6TG">
+<description>&lt;h3&gt;UFDFPN8&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 8&lt;/li&gt;
+&lt;li&gt;Package size: 2mm x 3mm&lt;/li&gt;
+&lt;li&gt;Pin pitch: 0.5mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
 <wire x1="-0.95" y1="1.45" x2="-0.95" y2="-1.45" width="0.1524" layer="51"/>
 <wire x1="-0.95" y1="-1.45" x2="0.95" y2="-1.45" width="0.1524" layer="51"/>
 <wire x1="0.95" y1="-1.45" x2="0.95" y2="1.45" width="0.1524" layer="51"/>
@@ -109,6 +116,13 @@
 </symbols>
 <devicesets>
 <deviceset name="M24C02-FMC6TG" prefix="U">
+<description>&lt;h3&gt;STMicroelectronics M24C02 2k EEPROM&lt;/h3&gt;
+&lt;p&gt;
+&lt;li&gt;2k EEPROM&lt;/li&gt;
+&lt;li&gt;I2C interface&lt;/li&gt;
+&lt;li&gt;Write protection&lt;/li&gt;
+&lt;p&gt;
+&lt;li&gt;&lt;a href=”https://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf”&gt;Datasheet&lt;/a&gt;&lt;/li&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="M24C02-FMC6TG" x="0" y="0"/>
 </gates>
@@ -123,7 +137,9 @@
 <connect gate="G$1" pin="VCC" pad="8"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-16922"/>
+</technology>
 </technologies>
 </device>
 </devices>

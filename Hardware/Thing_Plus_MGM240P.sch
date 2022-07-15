@@ -21910,6 +21910,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="MGM240P">
 <packages>
 <package name="MGM240P">
+<description>&lt;h3&gt;MGM240P&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 36&lt;/li&gt;
+&lt;li&gt;Package size: 12.9mm x 15mm&lt;/li&gt;
+&lt;li&gt;Pin pitch: 1mm&lt;/li&gt;
+&lt;/ul&gt;</description>
 <wire x1="-6.7" y1="7.75" x2="-6.7" y2="1.3" width="0.2032" layer="21"/>
 <wire x1="-6.7" y1="1.3" x2="-6.7" y2="-7.75" width="0.2032" layer="21"/>
 <wire x1="-6.7" y1="-7.75" x2="6.7" y2="-7.75" width="0.2032" layer="21"/>
@@ -22127,6 +22133,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbols>
 <devicesets>
 <deviceset name="MGM240P" prefix="U">
+<description>&lt;h3&gt;SiLabs MGM240P&lt;/h3&gt;
+&lt;p&gt;
+&lt;li&gt;High performance wireless MCU&lt;/li&gt;
+&lt;li&gt;Supports Zigbee, OpenThread, and BLE&lt;/li&gt;
+&lt;li&gt;26 GPIO pins&lt;/li&gt;
+&lt;li&gt;Based on EFR32MG24 SoC&lt;/li&gt;
+&lt;li&gt;1.5MB Flash memory&lt;/li&gt;
+&lt;li&gt;256kB internal RAM&lt;/li&gt;</description>
 <gates>
 <gate name="G$1" symbol="MGM240P" x="0" y="0"/>
 </gates>
@@ -28563,6 +28577,13 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <library name="EFM32GG12B410F1024GL120">
 <packages>
 <package name="EFM32GG12B410F1024GL120">
+<description>&lt;h3&gt;BGA120&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 120&lt;/li&gt;
+&lt;li&gt;Package size: 7mm x 7mm&lt;/li&gt;
+&lt;li&gt;Pin pitch: 0.5mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://www.silabs.com/documents/public/data-sheets/efm32gg12-datasheet.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
 <wire x1="-3.5" y1="3.5" x2="-3.5" y2="-3.5" width="0.1524" layer="51"/>
 <wire x1="-3.5" y1="-3.5" x2="3.5" y2="-3.5" width="0.1524" layer="51"/>
 <wire x1="3.5" y1="-3.5" x2="3.5" y2="3.5" width="0.1524" layer="51"/>
@@ -28835,6 +28856,16 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </symbols>
 <devicesets>
 <deviceset name="EFM32GG12B410F1024GL120" prefix="U">
+<description>&lt;h3&gt;SiLabs EFM32GG12&lt;/h3&gt;
+&lt;p&gt;
+&lt;li&gt;Energy efficient MCU.&lt;/li&gt;
+&lt;li&gt;Used as a Segger debugger chip on some products.&lt;/li&gt;
+&lt;li&gt;93 GPIO pins&lt;/li&gt;
+&lt;li&gt;32-bit ARM Cortex-M4 processor&lt;/li&gt;
+&lt;li&gt;1MB Flash memory&lt;/li&gt;
+&lt;li&gt;192kB internal RAM&lt;/li&gt;
+&lt;p&gt;
+&lt;li&gt;&lt;a href=”https://www.silabs.com/documents/public/data-sheets/efm32gg12-datasheet.pdf”&gt;Datasheet&lt;/a&gt;&lt;/li&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="A" symbol="EFM32GG12B410F1024GL120_A" x="-68.58" y="-2.54"/>
 <gate name="B" symbol="EFM32GG12B410F1024GL120_B" x="-22.86" y="-2.54"/>
@@ -28949,7 +28980,9 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <connect gate="D" pin="VSS" pad="C5 C8 H3 J3 K11 K12 L5 L6 M8 M11 N8"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-16889"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -28959,6 +28992,13 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <library name="M24C02-FMC6TG">
 <packages>
 <package name="M24C02-FMC6TG">
+<description>&lt;h3&gt;UFDFPN8&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 8&lt;/li&gt;
+&lt;li&gt;Package size: 2mm x 3mm&lt;/li&gt;
+&lt;li&gt;Pin pitch: 0.5mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
 <wire x1="-0.95" y1="1.45" x2="-0.95" y2="-1.45" width="0.1524" layer="51"/>
 <wire x1="-0.95" y1="-1.45" x2="0.95" y2="-1.45" width="0.1524" layer="51"/>
 <wire x1="0.95" y1="-1.45" x2="0.95" y2="1.45" width="0.1524" layer="51"/>
@@ -29006,6 +29046,13 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </symbols>
 <devicesets>
 <deviceset name="M24C02-FMC6TG" prefix="U">
+<description>&lt;h3&gt;STMicroelectronics M24C02 2k EEPROM&lt;/h3&gt;
+&lt;p&gt;
+&lt;li&gt;2k EEPROM&lt;/li&gt;
+&lt;li&gt;I2C interface&lt;/li&gt;
+&lt;li&gt;Write protection&lt;/li&gt;
+&lt;p&gt;
+&lt;li&gt;&lt;a href=”https://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf”&gt;Datasheet&lt;/a&gt;&lt;/li&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="M24C02-FMC6TG" x="0" y="0"/>
 </gates>
@@ -29020,7 +29067,9 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <connect gate="G$1" pin="VCC" pad="8"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-16922"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -29137,6 +29186,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="MX25R8035FZUIL0">
 <packages>
 <package name="MX25R8035FZUIL0">
+<description>&lt;h3&gt;8-USON&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 8&lt;/li&gt;
+&lt;li&gt;Package size: 2mm x 3mm&lt;/li&gt;
+&lt;li&gt;Pin pitch: 0.5mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://www.macronix.com/Lists/Datasheet/Attachments/8749/MX25R8035F,%20Wide%20Range,%208Mb,%20v1.6.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
 <wire x1="-1" y1="1.5" x2="-1" y2="-1.5" width="0.1524" layer="51"/>
 <wire x1="-1" y1="-1.5" x2="1" y2="-1.5" width="0.1524" layer="51"/>
 <wire x1="1" y1="-1.5" x2="1" y2="1.5" width="0.1524" layer="51"/>
@@ -29188,6 +29244,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbols>
 <devicesets>
 <deviceset name="MX25R8035FZUIL0" prefix="U">
+<description>&lt;h3&gt;Macronix MX25R8035F Serial Flash&lt;/h3&gt;
+&lt;p&gt;
+&lt;li&gt;Low power 8Mb flash storage chip&lt;/li&gt;
+&lt;li&gt;SPI interface&lt;/li&gt;
+&lt;li&gt;1-bit, 2-bit, and 4-bit storage structures&lt;/li&gt;
+&lt;p&gt;
+&lt;li&gt;&lt;a href=”https://www.macronix.com/Lists/Datasheet/Attachments/8749/MX25R8035F,%20Wide%20Range,%208Mb,%20v1.6.pdf”&gt;Datasheet&lt;/a&gt;&lt;/li&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="MX25R8035FZUIL0" x="0" y="0"/>
 </gates>
@@ -29204,7 +29267,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="WP" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-16921"/>
+</technology>
 </technologies>
 </device>
 </devices>
