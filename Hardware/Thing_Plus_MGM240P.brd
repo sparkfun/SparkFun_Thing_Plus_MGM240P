@@ -16152,6 +16152,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="Y1" library="CRYSTAL-48MHZ" package="CRYSTAL-SMD-2.0X1.6MM-ECS" value="CRYSTAL-48MHZ" x="5.715" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="4.465" y="33.02" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="PROD_ID" value="XTAL-16925" x="5.715" y="33.02" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="6.965" y="33.02" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 </elements>

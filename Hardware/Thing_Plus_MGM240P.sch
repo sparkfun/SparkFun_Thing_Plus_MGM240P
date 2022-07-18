@@ -29352,7 +29352,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="GND" pad="2 4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="XTAL-16925"/>
+</technology>
 </technologies>
 </device>
 </devices>
