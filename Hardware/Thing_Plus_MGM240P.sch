@@ -22459,13 +22459,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="V_BATT" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 </symbol>
-<symbol name="VDD">
-<description>&lt;h3&gt;VDD Voltage Supply&lt;/h3&gt;</description>
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<pin name="VDD" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="GND">
@@ -22514,20 +22507,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;p&gt;Generic symbol for the battery input to a system.&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="V_BATT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VDD" prefix="SUPPLY">
-<description>&lt;h3&gt;VDD Voltage Supply&lt;/h3&gt;
-&lt;p&gt;Positive voltage supply (traditionally for a CMOS device, D=drain).&lt;/p&gt;</description>
-<gates>
-<gate name="VDD" symbol="VDD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -29461,10 +29440,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D4" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
 <part name="R11" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0402T-1/16W-1%" value="2.2k"/>
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="VDDJ"/>
-<part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="VDDJ"/>
-<part name="SUPPLY22" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="SUPPLY29" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="VDDJ"/>
 <part name="SUPPLY30" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_3MM"/>
@@ -29499,26 +29474,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="TP13" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
 <part name="TP14" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
 <part name="U6" library="M24C02-FMC6TG" deviceset="M24C02-FMC6TG" device=""/>
-<part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="VDDJ"/>
 <part name="GND14" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND15" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="VDDJ"/>
 <part name="R14" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402T-1/16W-1%" value="100k"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-6.3V-10%-X7R" value="0.1uF"/>
 <part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY24" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="VDDJ"/>
-<part name="SUPPLY25" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="VDDJ"/>
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-6.3V-10%-X7R" value="0.1uF"/>
 <part name="GND22" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY27" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="VDDJ"/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="10UF" device="-0402T-6.3V-20%" value="10uF"/>
 <part name="GND23" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY32" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="VDDJ"/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%-X7R" value="1.0uF"/>
 <part name="GND24" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="FB1" library="SparkFun-Coils" deviceset="FERRITE_BEAD-120_OHM" device="-0402T"/>
-<part name="SUPPLY33" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="VDDJ"/>
 <part name="C8" library="SparkFun-Capacitors" deviceset="10NF" device="-0402T-25V-10%" value="10nF"/>
 <part name="C9" library="SparkFun-Capacitors" deviceset="10NF" device="-0402T-25V-10%" value="10nF"/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
@@ -29532,28 +29500,40 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C12" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0402_TIGHT-6.3V-20%-X5R" value="4.7uF"/>
 <part name="GND44" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND45" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="VDDJ"/>
 <part name="U7" library="MX25R8035FZUIL0" deviceset="MX25R8035FZUIL0" device=""/>
-<part name="SUPPLY26" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="VDDJ"/>
-<part name="VDDJ_EN" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 <part name="R12" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0402T-1/16W-1%" value="2.2k"/>
 <part name="R16" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0402T-1/16W-1%" value="2.2k"/>
 <part name="R17" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402T-1/16W-1%" value="10k"/>
-<part name="SUPPLY35" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="VDDJ"/>
 <part name="C18" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-6.3V-10%-X7R" value="0.1uF"/>
 <part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY36" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="VDDJ"/>
 <part name="C19" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-6.3V-10%-X7R" value="0.1uF"/>
 <part name="GND46" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY37" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="VDDJ"/>
 <part name="C20" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-6.3V-10%-X7R" value="0.1uF"/>
 <part name="GND47" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY38" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="VDDJ"/>
 <part name="C21" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-6.3V-10%-X7R" value="0.1uF"/>
 <part name="GND48" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY39" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="VDDJ"/>
 <part name="Y1" library="CRYSTAL-48MHZ" deviceset="CRYSTAL-48MHZ" device=""/>
 <part name="GND49" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="D8" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-RB751S40" value="120mA/40V/370mV"/>
+<part name="R18" library="SparkFun-Resistors" deviceset="1KOHM" device="-0402T-1/16W-1%" value="1k"/>
+<part name="SUPPLY22" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
+<part name="GND50" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="SUPPLY29" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY40" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY41" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY42" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY43" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY44" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY45" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY46" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY47" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY48" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY49" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY50" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY51" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY52" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY53" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY54" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -29606,8 +29586,6 @@ I2C pullup resistors</text>
 <wire x1="99.06" y1="149.86" x2="0" y2="149.86" width="0.2032" layer="97" style="longdash"/>
 <text x="358.14" y="12.7" size="2.54" layer="94" font="vector" align="center">Dryw Wade</text>
 <text x="424.18" y="7.62" size="2.54" layer="94" font="vector" align="center">v01</text>
-<text x="304.8" y="175.26" size="2.032" layer="97" font="vector" align="center">Cut trace to disabled
-debugger chip</text>
 <text x="20.32" y="205.74" size="2.032" layer="97" font="vector" rot="R180" align="center">Cut trace to
 remove power LED</text>
 <text x="83.82" y="210.82" size="2.54" layer="94" font="vector" align="center">Reset Button</text>
@@ -29913,18 +29891,6 @@ remove power LED</text>
 <instance part="GND9" gate="1" x="53.34" y="165.1" smashed="yes">
 <attribute name="VALUE" x="53.34" y="164.846" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY10" gate="VDD" x="264.16" y="40.64" smashed="yes">
-<attribute name="VALUE" x="264.16" y="43.434" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY12" gate="VDD" x="241.3" y="203.2" smashed="yes">
-<attribute name="VALUE" x="241.3" y="205.994" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY22" gate="G$1" x="297.18" y="187.96" smashed="yes">
-<attribute name="VALUE" x="297.18" y="190.754" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY29" gate="VDD" x="312.42" y="187.96" smashed="yes">
-<attribute name="VALUE" x="312.42" y="190.754" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="SUPPLY30" gate="G$1" x="177.8" y="187.96" smashed="yes">
 <attribute name="VALUE" x="177.8" y="190.754" size="1.778" layer="96" align="bottom-center"/>
 </instance>
@@ -30040,17 +30006,11 @@ remove power LED</text>
 <attribute name="NAME" x="114.3" y="30.48" size="1.778" layer="95" font="vector" align="top-left"/>
 <attribute name="VALUE" x="114.3" y="10.16" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="SUPPLY11" gate="VDD" x="109.22" y="27.94" smashed="yes">
-<attribute name="VALUE" x="109.22" y="30.734" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="GND14" gate="1" x="109.22" y="10.16" smashed="yes">
 <attribute name="VALUE" x="109.22" y="9.906" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="GND15" gate="1" x="139.7" y="10.16" smashed="yes">
 <attribute name="VALUE" x="139.7" y="9.906" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="SUPPLY13" gate="VDD" x="149.86" y="43.18" smashed="yes">
-<attribute name="VALUE" x="149.86" y="45.974" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="R14" gate="G$1" x="149.86" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="148.336" y="33.02" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -30063,12 +30023,6 @@ remove power LED</text>
 <instance part="GND16" gate="1" x="101.6" y="10.16" smashed="yes">
 <attribute name="VALUE" x="101.6" y="9.906" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY24" gate="VDD" x="101.6" y="25.4" smashed="yes">
-<attribute name="VALUE" x="101.6" y="28.194" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY25" gate="VDD" x="27.94" y="33.02" smashed="yes">
-<attribute name="VALUE" x="27.94" y="35.814" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="GND17" gate="1" x="27.94" y="10.16" smashed="yes">
 <attribute name="VALUE" x="27.94" y="9.906" size="1.778" layer="96" align="top-center"/>
 </instance>
@@ -30079,18 +30033,12 @@ remove power LED</text>
 <instance part="GND22" gate="1" x="20.32" y="15.24" smashed="yes">
 <attribute name="VALUE" x="20.32" y="14.986" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY27" gate="VDD" x="20.32" y="30.48" smashed="yes">
-<attribute name="VALUE" x="20.32" y="33.274" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="C6" gate="G$1" x="218.44" y="22.86" smashed="yes">
 <attribute name="NAME" x="219.964" y="25.781" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="218.059" y="16.764" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
 <instance part="GND23" gate="1" x="218.44" y="15.24" smashed="yes">
 <attribute name="VALUE" x="218.44" y="14.986" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="SUPPLY32" gate="VDD" x="218.44" y="30.48" smashed="yes">
-<attribute name="VALUE" x="218.44" y="33.274" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="C7" gate="G$1" x="307.34" y="12.7" smashed="yes">
 <attribute name="NAME" x="308.864" y="15.621" size="1.778" layer="95" font="vector"/>
@@ -30101,9 +30049,6 @@ remove power LED</text>
 </instance>
 <instance part="FB1" gate="G$1" x="226.06" y="38.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="223.52" y="36.83" size="1.778" layer="95" font="vector" rot="R90"/>
-</instance>
-<instance part="SUPPLY33" gate="VDD" x="226.06" y="45.72" smashed="yes">
-<attribute name="VALUE" x="226.06" y="48.514" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="C8" gate="G$1" x="241.3" y="22.86" smashed="yes">
 <attribute name="NAME" x="242.824" y="25.781" size="1.778" layer="95" font="vector"/>
@@ -30151,18 +30096,9 @@ remove power LED</text>
 <instance part="GND45" gate="1" x="256.54" y="7.62" smashed="yes">
 <attribute name="VALUE" x="256.54" y="7.366" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY5" gate="VDD" x="241.3" y="132.08" smashed="yes">
-<attribute name="VALUE" x="241.3" y="134.874" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="U7" gate="G$1" x="43.18" y="22.86" smashed="yes">
 <attribute name="NAME" x="33.02" y="35.56" size="1.778" layer="95" font="vector" align="top-left"/>
 <attribute name="VALUE" x="33.02" y="10.16" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="SUPPLY26" gate="VDD" x="58.42" y="30.48" smashed="yes">
-<attribute name="VALUE" x="58.42" y="33.274" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="VDDJ_EN" gate="G$1" x="304.8" y="185.42" smashed="yes" rot="R180">
-<attribute name="NAME" x="304.8" y="182.372" size="1.778" layer="95" font="vector" rot="R180" align="center"/>
 </instance>
 <instance part="R12" gate="G$1" x="134.62" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="133.096" y="33.02" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -30176,18 +30112,12 @@ remove power LED</text>
 <attribute name="NAME" x="64.516" y="30.48" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="67.564" y="30.48" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="SUPPLY35" gate="VDD" x="66.04" y="38.1" smashed="yes">
-<attribute name="VALUE" x="66.04" y="40.894" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="C18" gate="G$1" x="210.82" y="22.86" smashed="yes">
 <attribute name="NAME" x="212.344" y="25.781" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="210.439" y="16.764" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
 <instance part="GND18" gate="1" x="210.82" y="15.24" smashed="yes">
 <attribute name="VALUE" x="210.82" y="14.986" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="SUPPLY36" gate="VDD" x="210.82" y="30.48" smashed="yes">
-<attribute name="VALUE" x="210.82" y="33.274" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="C19" gate="G$1" x="203.2" y="22.86" smashed="yes">
 <attribute name="NAME" x="204.724" y="25.781" size="1.778" layer="95" font="vector"/>
@@ -30196,18 +30126,12 @@ remove power LED</text>
 <instance part="GND46" gate="1" x="203.2" y="15.24" smashed="yes">
 <attribute name="VALUE" x="203.2" y="14.986" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY37" gate="VDD" x="203.2" y="30.48" smashed="yes">
-<attribute name="VALUE" x="203.2" y="33.274" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="C20" gate="G$1" x="195.58" y="22.86" smashed="yes">
 <attribute name="NAME" x="197.104" y="25.781" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="195.199" y="16.764" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
 <instance part="GND47" gate="1" x="195.58" y="15.24" smashed="yes">
 <attribute name="VALUE" x="195.58" y="14.986" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="SUPPLY38" gate="VDD" x="195.58" y="30.48" smashed="yes">
-<attribute name="VALUE" x="195.58" y="33.274" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="C21" gate="G$1" x="187.96" y="22.86" smashed="yes">
 <attribute name="NAME" x="189.484" y="25.781" size="1.778" layer="95" font="vector"/>
@@ -30216,15 +30140,74 @@ remove power LED</text>
 <instance part="GND48" gate="1" x="187.96" y="15.24" smashed="yes">
 <attribute name="VALUE" x="187.96" y="14.986" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY39" gate="VDD" x="187.96" y="30.48" smashed="yes">
-<attribute name="VALUE" x="187.96" y="33.274" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="Y1" gate="G$1" x="167.64" y="81.28" smashed="yes">
 <attribute name="VALUE" x="169.164" y="79.756" size="1.778" layer="96" font="vector" align="top-left"/>
 <attribute name="NAME" x="166.37" y="79.756" size="1.778" layer="95" font="vector" align="top-right"/>
 </instance>
 <instance part="GND49" gate="1" x="167.64" y="71.12" smashed="yes">
 <attribute name="VALUE" x="167.64" y="70.866" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="D8" gate="G$1" x="302.26" y="185.42" smashed="yes" rot="R180">
+<attribute name="NAME" x="304.8" y="183.388" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="302.26" y="180.848" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="R18" gate="G$1" x="297.18" y="177.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="295.656" y="177.8" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="298.704" y="177.8" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="SUPPLY22" gate="G$1" x="297.18" y="187.96" smashed="yes">
+<attribute name="VALUE" x="297.18" y="190.754" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="GND50" gate="1" x="297.18" y="167.64" smashed="yes">
+<attribute name="VALUE" x="297.18" y="167.386" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="SUPPLY29" gate="G$1" x="241.3" y="203.2" smashed="yes">
+<attribute name="VALUE" x="241.3" y="205.994" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY40" gate="G$1" x="241.3" y="132.08" smashed="yes">
+<attribute name="VALUE" x="241.3" y="134.874" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY41" gate="G$1" x="226.06" y="45.72" smashed="yes">
+<attribute name="VALUE" x="226.06" y="48.514" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY42" gate="G$1" x="264.16" y="40.64" smashed="yes">
+<attribute name="VALUE" x="264.16" y="43.434" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY43" gate="G$1" x="149.86" y="43.18" smashed="yes">
+<attribute name="VALUE" x="149.86" y="45.974" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY44" gate="G$1" x="66.04" y="38.1" smashed="yes">
+<attribute name="VALUE" x="66.04" y="40.894" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY45" gate="G$1" x="20.32" y="30.48" smashed="yes">
+<attribute name="VALUE" x="20.32" y="33.274" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY46" gate="G$1" x="27.94" y="33.02" smashed="yes">
+<attribute name="VALUE" x="27.94" y="35.814" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY47" gate="G$1" x="101.6" y="25.4" smashed="yes">
+<attribute name="VALUE" x="101.6" y="28.194" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY48" gate="G$1" x="109.22" y="27.94" smashed="yes">
+<attribute name="VALUE" x="109.22" y="30.734" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY49" gate="G$1" x="58.42" y="30.48" smashed="yes">
+<attribute name="VALUE" x="58.42" y="33.274" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY50" gate="G$1" x="187.96" y="30.48" smashed="yes">
+<attribute name="VALUE" x="187.96" y="33.274" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY51" gate="G$1" x="195.58" y="30.48" smashed="yes">
+<attribute name="VALUE" x="195.58" y="33.274" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY52" gate="G$1" x="203.2" y="30.48" smashed="yes">
+<attribute name="VALUE" x="203.2" y="33.274" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY53" gate="G$1" x="210.82" y="30.48" smashed="yes">
+<attribute name="VALUE" x="210.82" y="33.274" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY54" gate="G$1" x="218.44" y="30.48" smashed="yes">
+<attribute name="VALUE" x="218.44" y="33.274" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -30498,6 +30481,11 @@ remove power LED</text>
 <pinref part="Y1" gate="G$1" pin="GND"/>
 <wire x1="167.64" y1="73.66" x2="167.64" y2="76.2" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND50" gate="1" pin="GND"/>
+<wire x1="297.18" y1="170.18" x2="297.18" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -30550,12 +30538,6 @@ remove power LED</text>
 <pinref part="SUPPLY30" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="SUPPLY22" gate="G$1" pin="3.3V"/>
-<wire x1="297.18" y1="185.42" x2="297.18" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="VDDJ_EN" gate="G$1" pin="2"/>
-<wire x1="297.18" y1="185.42" x2="299.72" y2="185.42" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="PWR" gate="G$1" pin="2"/>
 <pinref part="SUPPLY28" gate="G$1" pin="3.3V"/>
 <wire x1="20.32" y1="193.04" x2="20.32" y2="195.58" width="0.1524" layer="91"/>
@@ -30564,6 +30546,108 @@ remove power LED</text>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="SUPPLY31" gate="G$1" pin="3.3V"/>
 <wire x1="109.22" y1="187.96" x2="109.22" y2="190.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="264.16" y1="38.1" x2="264.16" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U3" gate="D" pin="IOVDD0"/>
+<wire x1="266.7" y1="38.1" x2="264.16" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="U3" gate="D" pin="IOVDD1"/>
+<wire x1="266.7" y1="35.56" x2="264.16" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="35.56" x2="264.16" y2="38.1" width="0.1524" layer="91"/>
+<junction x="264.16" y="38.1"/>
+<pinref part="U3" gate="D" pin="DVDD"/>
+<wire x1="266.7" y1="33.02" x2="264.16" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="33.02" x2="264.16" y2="35.56" width="0.1524" layer="91"/>
+<junction x="264.16" y="35.56"/>
+<pinref part="SUPPLY42" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<wire x1="243.84" y1="200.66" x2="241.3" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="200.66" x2="241.3" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="TP1" gate="G$1" pin="1"/>
+<pinref part="SUPPLY29" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="VCC"/>
+<wire x1="111.76" y1="25.4" x2="109.22" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="25.4" x2="109.22" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="SUPPLY48" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="149.86" y1="38.1" x2="149.86" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="149.86" y1="40.64" x2="149.86" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="38.1" x2="134.62" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="40.64" x2="142.24" y2="40.64" width="0.1524" layer="91"/>
+<junction x="149.86" y="40.64"/>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="40.64" x2="149.86" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="38.1" x2="142.24" y2="40.64" width="0.1524" layer="91"/>
+<junction x="142.24" y="40.64"/>
+<pinref part="SUPPLY43" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="22.86" x2="101.6" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="SUPPLY47" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<wire x1="27.94" y1="30.48" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="VCC"/>
+<pinref part="SUPPLY46" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="27.94" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="SUPPLY45" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="27.94" x2="218.44" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="SUPPLY54" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="FB1" gate="G$1" pin="2"/>
+<wire x1="226.06" y1="43.18" x2="226.06" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="SUPPLY41" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="241.3" y1="129.54" x2="241.3" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="SUPPLY40" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<wire x1="58.42" y1="27.94" x2="58.42" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="WP"/>
+<wire x1="55.88" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="SUPPLY49" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<wire x1="66.04" y1="35.56" x2="66.04" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="2"/>
+<pinref part="SUPPLY44" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="C18" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="27.94" x2="210.82" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="SUPPLY53" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="C19" gate="G$1" pin="1"/>
+<wire x1="203.2" y1="27.94" x2="203.2" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="SUPPLY52" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="C20" gate="G$1" pin="1"/>
+<wire x1="195.58" y1="27.94" x2="195.58" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="SUPPLY51" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="C21" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="27.94" x2="187.96" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="SUPPLY50" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
 <net name="V_USB" class="0">
@@ -30623,6 +30707,15 @@ remove power LED</text>
 <pinref part="SUPPLY3" gate="G$1" pin="V_USB"/>
 <wire x1="368.3" y1="129.54" x2="358.14" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="129.54" x2="358.14" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="297.18" y1="182.88" x2="297.18" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="D8" gate="G$1" pin="C"/>
+<wire x1="297.18" y1="185.42" x2="299.72" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="SUPPLY22" gate="G$1" pin="V_USB"/>
+<wire x1="297.18" y1="185.42" x2="297.18" y2="187.96" width="0.1524" layer="91"/>
+<junction x="297.18" y="185.42"/>
 </segment>
 </net>
 <net name="V_BATT" class="0">
@@ -31278,116 +31371,6 @@ remove power LED</text>
 <wire x1="132.08" y1="248.92" x2="129.54" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VDDJ" class="0">
-<segment>
-<wire x1="264.16" y1="38.1" x2="264.16" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="SUPPLY10" gate="VDD" pin="VDD"/>
-<pinref part="U3" gate="D" pin="IOVDD0"/>
-<wire x1="266.7" y1="38.1" x2="264.16" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="U3" gate="D" pin="IOVDD1"/>
-<wire x1="266.7" y1="35.56" x2="264.16" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="35.56" x2="264.16" y2="38.1" width="0.1524" layer="91"/>
-<junction x="264.16" y="38.1"/>
-<pinref part="U3" gate="D" pin="DVDD"/>
-<wire x1="266.7" y1="33.02" x2="264.16" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="33.02" x2="264.16" y2="35.56" width="0.1524" layer="91"/>
-<junction x="264.16" y="35.56"/>
-</segment>
-<segment>
-<pinref part="SUPPLY29" gate="VDD" pin="VDD"/>
-<wire x1="312.42" y1="185.42" x2="312.42" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="VDDJ_EN" gate="G$1" pin="1"/>
-<wire x1="309.88" y1="185.42" x2="312.42" y2="185.42" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="243.84" y1="200.66" x2="241.3" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="SUPPLY12" gate="VDD" pin="VDD"/>
-<wire x1="241.3" y1="200.66" x2="241.3" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="TP1" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="U6" gate="G$1" pin="VCC"/>
-<wire x1="111.76" y1="25.4" x2="109.22" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="25.4" x2="109.22" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="SUPPLY11" gate="VDD" pin="VDD"/>
-</segment>
-<segment>
-<pinref part="R14" gate="G$1" pin="2"/>
-<pinref part="SUPPLY13" gate="VDD" pin="VDD"/>
-<wire x1="149.86" y1="38.1" x2="149.86" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="40.64" x2="149.86" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="38.1" x2="134.62" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="40.64" x2="142.24" y2="40.64" width="0.1524" layer="91"/>
-<junction x="149.86" y="40.64"/>
-<pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="40.64" x2="149.86" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="38.1" x2="142.24" y2="40.64" width="0.1524" layer="91"/>
-<junction x="142.24" y="40.64"/>
-</segment>
-<segment>
-<pinref part="C4" gate="G$1" pin="1"/>
-<pinref part="SUPPLY24" gate="VDD" pin="VDD"/>
-<wire x1="101.6" y1="22.86" x2="101.6" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY25" gate="VDD" pin="VDD"/>
-<wire x1="27.94" y1="30.48" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="U7" gate="G$1" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="C5" gate="G$1" pin="1"/>
-<pinref part="SUPPLY27" gate="VDD" pin="VDD"/>
-<wire x1="20.32" y1="27.94" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C6" gate="G$1" pin="1"/>
-<pinref part="SUPPLY32" gate="VDD" pin="VDD"/>
-<wire x1="218.44" y1="27.94" x2="218.44" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="FB1" gate="G$1" pin="2"/>
-<pinref part="SUPPLY33" gate="VDD" pin="VDD"/>
-<wire x1="226.06" y1="43.18" x2="226.06" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="241.3" y1="129.54" x2="241.3" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="SUPPLY5" gate="VDD" pin="VDD"/>
-</segment>
-<segment>
-<wire x1="58.42" y1="27.94" x2="58.42" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="U7" gate="G$1" pin="WP"/>
-<wire x1="55.88" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="SUPPLY26" gate="VDD" pin="VDD"/>
-</segment>
-<segment>
-<wire x1="66.04" y1="35.56" x2="66.04" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="SUPPLY35" gate="VDD" pin="VDD"/>
-<pinref part="R17" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="C18" gate="G$1" pin="1"/>
-<pinref part="SUPPLY36" gate="VDD" pin="VDD"/>
-<wire x1="210.82" y1="27.94" x2="210.82" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C19" gate="G$1" pin="1"/>
-<pinref part="SUPPLY37" gate="VDD" pin="VDD"/>
-<wire x1="203.2" y1="27.94" x2="203.2" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C20" gate="G$1" pin="1"/>
-<pinref part="SUPPLY38" gate="VDD" pin="VDD"/>
-<wire x1="195.58" y1="27.94" x2="195.58" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C21" gate="G$1" pin="1"/>
-<pinref part="SUPPLY39" gate="VDD" pin="VDD"/>
-<wire x1="187.96" y1="27.94" x2="187.96" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="PWR" gate="G$1" pin="1"/>
@@ -31727,6 +31710,23 @@ remove power LED</text>
 <wire x1="172.72" y1="81.28" x2="172.72" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="U3" gate="A" pin="HFXTAL_P/PB13"/>
 <wire x1="172.72" y1="83.82" x2="147.32" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DBG_WAKE" class="0">
+<segment>
+<pinref part="U3" gate="A" pin="PA5"/>
+<wire x1="111.76" y1="104.14" x2="109.22" y2="104.14" width="0.1524" layer="91"/>
+<label x="109.22" y="104.14" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D8" gate="G$1" pin="A"/>
+<wire x1="304.8" y1="185.42" x2="307.34" y2="185.42" width="0.1524" layer="91"/>
+<label x="307.34" y="185.42" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U3" gate="A" pin="PA6"/>
+<wire x1="111.76" y1="101.6" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
+<label x="109.22" y="101.6" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
