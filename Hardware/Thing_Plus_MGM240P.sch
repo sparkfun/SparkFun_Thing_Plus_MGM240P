@@ -29184,15 +29184,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.15" y1="1.65" x2="-1.15" y2="1.65" width="0.1524" layer="21"/>
 <text x="0" y="2.25" size="0.6096" layer="25" font="vector" ratio="20" align="center">&gt;NAME</text>
 <text x="0" y="-2.25" size="0.6096" layer="27" font="vector" ratio="20" align="center">&gt;VALUE</text>
-<circle x="-1.5" y="1.5" radius="0.070709375" width="0.1524" layer="21"/>
-<smd name="1" x="-0.75" y="1.25" dx="0.25" dy="0.4" layer="1" cream="no"/>
-<smd name="2" x="-0.25" y="1.25" dx="0.25" dy="0.4" layer="1" cream="no"/>
-<smd name="3" x="0.25" y="1.25" dx="0.25" dy="0.4" layer="1" cream="no"/>
-<smd name="4" x="0.75" y="1.25" dx="0.25" dy="0.4" layer="1" cream="no"/>
-<smd name="5" x="0.75" y="-1.25" dx="0.25" dy="0.4" layer="1" cream="no"/>
-<smd name="6" x="0.25" y="-1.25" dx="0.25" dy="0.4" layer="1" cream="no"/>
-<smd name="7" x="-0.25" y="-1.25" dx="0.25" dy="0.4" layer="1" cream="no"/>
-<smd name="8" x="-0.75" y="-1.25" dx="0.25" dy="0.4" layer="1" cream="no"/>
+<circle x="1.5" y="1.5" radius="0.070709375" width="0.1524" layer="21"/>
+<smd name="1" x="0.75" y="1.25" dx="0.25" dy="0.4" layer="1" cream="no"/>
+<smd name="2" x="0.25" y="1.25" dx="0.25" dy="0.4" layer="1" cream="no"/>
+<smd name="3" x="-0.25" y="1.25" dx="0.25" dy="0.4" layer="1" cream="no"/>
+<smd name="4" x="-0.75" y="1.25" dx="0.25" dy="0.4" layer="1" cream="no"/>
+<smd name="5" x="-0.75" y="-1.25" dx="0.25" dy="0.4" layer="1" cream="no"/>
+<smd name="6" x="-0.25" y="-1.25" dx="0.25" dy="0.4" layer="1" cream="no"/>
+<smd name="7" x="0.25" y="-1.25" dx="0.25" dy="0.4" layer="1" cream="no"/>
+<smd name="8" x="0.75" y="-1.25" dx="0.25" dy="0.4" layer="1" cream="no"/>
 <smd name="EPAD" x="0" y="0" dx="1.6" dy="0.2" layer="1" cream="no"/>
 <rectangle x1="-0.85" y1="1.075" x2="-0.65" y2="1.425" layer="31"/>
 <rectangle x1="-0.35" y1="1.075" x2="-0.15" y2="1.425" layer="31"/>
@@ -29495,7 +29495,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND43" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY34" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="D6" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
-<part name="R15" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0402T-1/16W-1%" value="4.7k"/>
+<part name="R15" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0402T-1/16W-1%" value="2.2k"/>
 <part name="C11" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
 <part name="C12" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0402_TIGHT-6.3V-20%-X5R" value="4.7uF"/>
 <part name="GND44" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -29586,7 +29586,7 @@ I2C pullup resistors</text>
 <text x="304.8" y="210.82" size="2.54" layer="94" font="vector" align="center">J-Link OB Power Control</text>
 <wire x1="99.06" y1="149.86" x2="0" y2="149.86" width="0.2032" layer="97" style="longdash"/>
 <text x="358.14" y="12.7" size="2.54" layer="94" font="vector" align="center">Dryw Wade</text>
-<text x="424.18" y="7.62" size="2.54" layer="94" font="vector" align="center">v01</text>
+<text x="424.18" y="7.62" size="2.54" layer="94" font="vector" align="center">v02</text>
 <text x="20.32" y="205.74" size="2.032" layer="97" font="vector" rot="R180" align="center">Cut trace to
 remove power LED</text>
 <text x="83.82" y="210.82" size="2.54" layer="94" font="vector" align="center">Reset Button</text>
