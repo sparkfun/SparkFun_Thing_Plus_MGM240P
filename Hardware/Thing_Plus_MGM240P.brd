@@ -17418,7 +17418,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="3.175" y1="18.542" x2="3.175" y2="13.3222625" width="0.127" layer="16"/>
 <wire x1="17.08" y1="50.6" x2="19.25" y2="50.6" width="0.127" layer="1"/>
 </signal>
-<signal name="DBG_TX">
+<signal name="DBG_RX">
 <contactref element="U3" pad="A1"/>
 <contactref element="TP13" pad="1"/>
 <wire x1="14.43" y1="36.02" x2="14.8872" y2="36.02" width="0.127" layer="1"/>
@@ -17428,7 +17428,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="17.2085" y1="37.4015" x2="17.78" y2="36.83" width="0.127" layer="16"/>
 <wire x1="16.2687" y1="37.4015" x2="17.2085" y2="37.4015" width="0.127" layer="16"/>
 </signal>
-<signal name="DBG_RX">
+<signal name="DBG_TX">
 <contactref element="U3" pad="A2"/>
 <contactref element="TP14" pad="1"/>
 <wire x1="14.43" y1="35.52" x2="14.899" y2="35.52" width="0.127" layer="1"/>

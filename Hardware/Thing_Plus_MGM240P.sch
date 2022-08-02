@@ -31449,7 +31449,7 @@ power mode</text>
 <label x="401.32" y="116.84" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="DBG_TX" class="0">
+<net name="DBG_RX" class="0">
 <segment>
 <pinref part="U3" gate="C" pin="PE15/LEUSART0_RX"/>
 <wire x1="266.7" y1="78.74" x2="264.16" y2="78.74" width="0.1524" layer="91"/>
@@ -31461,7 +31461,7 @@ power mode</text>
 <label x="261.62" y="167.64" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="DBG_RX" class="0">
+<net name="DBG_TX" class="0">
 <segment>
 <pinref part="U3" gate="C" pin="PE14/LEUSART0_TX"/>
 <wire x1="266.7" y1="81.28" x2="264.16" y2="81.28" width="0.1524" layer="91"/>
