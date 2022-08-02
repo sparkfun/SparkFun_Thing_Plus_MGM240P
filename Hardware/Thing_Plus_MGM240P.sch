@@ -31293,9 +31293,9 @@ power mode</text>
 <label x="66.04" y="104.14" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J5" gate="J1" pin="DAT3/!CS!"/>
-<wire x1="127" y1="190.5" x2="124.46" y2="190.5" width="0.1524" layer="91"/>
-<label x="124.46" y="190.5" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="GPIO2"/>
+<wire x1="398.78" y1="86.36" x2="401.32" y2="86.36" width="0.1524" layer="91"/>
+<label x="401.32" y="86.36" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="!DBG_RESET!" class="0">
@@ -31332,16 +31332,16 @@ power mode</text>
 <label x="312.42" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="PA07" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="GPIO2"/>
-<wire x1="398.78" y1="86.36" x2="401.32" y2="86.36" width="0.1524" layer="91"/>
-<label x="401.32" y="86.36" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
+<net name="!SD_CS!/PA07" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA07"/>
 <wire x1="63.5" y1="96.52" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
 <label x="66.04" y="96.52" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J5" gate="J1" pin="DAT3/!CS!"/>
+<wire x1="127" y1="190.5" x2="124.46" y2="190.5" width="0.1524" layer="91"/>
+<label x="124.46" y="190.5" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
