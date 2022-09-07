@@ -17388,12 +17388,13 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="5.04" y1="15.49" x2="4.1569" y2="15.49" width="0.254" layer="16"/>
 <wire x1="4.1569" y1="15.49" x2="4.0259" y2="15.621" width="0.254" layer="16"/>
 <via x="4.0259" y="15.621" extent="1-16" drill="0.3048"/>
-<via x="0.6604" y="8.0772" extent="1-16" drill="0.3048"/>
+<via x="3.4544" y="6.8072" extent="1-16" drill="0.3048"/>
 <contactref element="C1" pad="1"/>
 <wire x1="4.58" y1="12.7" x2="4.58" y2="15.0669" width="0.254" layer="1"/>
 <wire x1="4.58" y1="15.0669" x2="4.0259" y2="15.621" width="0.254" layer="1"/>
-<wire x1="1.778" y1="7.2517" x2="1.4859" y2="7.2517" width="0.127" layer="16"/>
-<wire x1="1.4859" y1="7.2517" x2="0.6604" y2="8.0772" width="0.127" layer="16"/>
+<wire x1="3.4544" y1="6.8072" x2="2.5654" y2="6.8072" width="0.127" layer="16"/>
+<wire x1="2.5654" y1="6.8072" x2="2.1209" y2="7.2517" width="0.127" layer="16"/>
+<wire x1="1.778" y1="7.2517" x2="2.1209" y2="7.2517" width="0.127" layer="16"/>
 <contactref element="U3" pad="L4"/>
 <contactref element="U3" pad="G3"/>
 <contactref element="U3" pad="K3"/>
@@ -17486,7 +17487,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="16.637" y1="30.48" x2="16.637" y2="31.75" width="0.127" layer="15"/>
 <contactref element="R19" pad="2"/>
 <wire x1="6.215" y1="25.4" x2="6.215" y2="26.67" width="0.127" layer="1"/>
-<wire x1="3.81" y1="9.398" x2="1.778" y2="7.2517" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="V_USB">
 <contactref element="D1" pad="A"/>
