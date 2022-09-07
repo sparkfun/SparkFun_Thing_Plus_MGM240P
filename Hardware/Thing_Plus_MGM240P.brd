@@ -194,7 +194,7 @@
 <text x="15.24" y="-22.86" size="1.778" layer="51" font="vector">Dryw Wade</text>
 <rectangle x1="16.891" y1="57.023" x2="17.272" y2="57.15" layer="41"/>
 <rectangle x1="16.891" y1="56.007" x2="17.272" y2="56.134" layer="41"/>
-<text x="11.43" y="1.27" size="1.778" layer="16" font="vector" ratio="15" rot="MR0" align="center">v02</text>
+<text x="11.43" y="1.27" size="1.778" layer="16" font="vector" ratio="15" rot="MR0" align="center">v10</text>
 <dimension x1="0" y1="0" x2="2.54" y2="0" x3="1.27" y3="-2.54" textsize="1.27" textratio="15" layer="47" unit="inch"/>
 <dimension x1="0" y1="0" x2="11.43" y2="0" x3="5.715" y3="-6.35" textsize="1.27" textratio="15" layer="47" unit="inch"/>
 <dimension x1="0" y1="0" x2="20.32" y2="0" x3="10.16" y3="-10.16" textsize="1.27" textratio="15" layer="47" unit="inch"/>

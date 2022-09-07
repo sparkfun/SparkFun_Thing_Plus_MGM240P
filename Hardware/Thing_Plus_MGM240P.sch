@@ -29647,7 +29647,7 @@ I2C pullup resistors</text>
 <text x="304.8" y="210.82" size="2.54" layer="94" font="vector" align="center">J-Link OB Power Control</text>
 <wire x1="99.06" y1="149.86" x2="0" y2="149.86" width="0.2032" layer="97" style="longdash"/>
 <text x="358.14" y="12.7" size="2.54" layer="94" font="vector" align="center">Dryw Wade</text>
-<text x="424.18" y="7.62" size="2.54" layer="94" font="vector" align="center">v02</text>
+<text x="424.18" y="7.62" size="2.54" layer="94" font="vector" align="center">v10</text>
 <text x="20.32" y="205.74" size="2.032" layer="97" font="vector" rot="R180" align="center">Cut trace to
 remove power LED</text>
 <text x="83.82" y="210.82" size="2.54" layer="94" font="vector" align="center">Reset Button</text>
