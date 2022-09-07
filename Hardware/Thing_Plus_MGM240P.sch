@@ -29616,7 +29616,7 @@ R_PROG=2k : I_CHG=500mA
 R_PROG=10k: I_CHG=100mA</text>
 <text x="297.18" y="223.52" size="2.032" layer="97" font="vector" align="center">Cut and resolder jumper
 to change charge current</text>
-<text x="175.26" y="226.06" size="2.032" layer="97" font="vector" align="center">VIN: 2.5V-6V
+<text x="175.26" y="226.06" size="2.032" layer="97" font="vector" align="center">6V max in
 700mA out</text>
 <text x="17.78" y="228.6" size="2.032" layer="97" font="vector" align="center">Cut trace to isolate
 shield from GND</text>
