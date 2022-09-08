@@ -29596,6 +29596,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R20" library="SparkFun-Resistors" deviceset="330OHM" device="-0402T-1/16W-5%" value="330"/>
 <part name="R21" library="SparkFun-Resistors" deviceset="330OHM" device="-0402T-1/16W-5%" value="330"/>
+<part name="RST" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39288/1"/>
+<part name="D3_ISO" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
 </parts>
 <sheets>
 <sheet>
@@ -30291,6 +30293,12 @@ power mode</text>
 <instance part="R21" gate="G$1" x="411.48" y="129.54" smashed="yes">
 <attribute name="NAME" x="411.48" y="131.064" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="411.48" y="128.016" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="RST" gate="G$1" x="350.52" y="121.92" smashed="yes" rot="R90">
+<attribute name="NAME" x="350.52" y="124.714" size="1.778" layer="95" font="vector" align="center"/>
+</instance>
+<instance part="D3_ISO" gate="G$1" x="414.02" y="109.22" smashed="yes" rot="R180">
+<attribute name="NAME" x="414.02" y="106.426" size="1.778" layer="95" font="vector" rot="R180" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -31111,14 +31119,14 @@ power mode</text>
 </net>
 <net name="PD03" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="A0"/>
-<wire x1="393.7" y1="109.22" x2="396.24" y2="109.22" width="0.1524" layer="91"/>
-<label x="396.24" y="109.22" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="PD03"/>
 <wire x1="27.94" y1="83.82" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <label x="25.4" y="83.82" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="419.1" y1="109.22" x2="421.64" y2="109.22" width="0.1524" layer="91"/>
+<label x="421.64" y="109.22" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="D3_ISO" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SCL/PB03" class="0">
@@ -31230,11 +31238,6 @@ power mode</text>
 <label x="66.04" y="119.38" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="!RESET"/>
-<wire x1="363.22" y1="121.92" x2="360.68" y2="121.92" width="0.1524" layer="91"/>
-<label x="360.68" y="121.92" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J7" gate="G$1" pin="3"/>
 <wire x1="180.34" y1="182.88" x2="177.8" y2="182.88" width="0.1524" layer="91"/>
 <label x="177.8" y="182.88" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
@@ -31248,6 +31251,12 @@ power mode</text>
 <pinref part="U3" gate="A" pin="PA3"/>
 <wire x1="111.76" y1="109.22" x2="109.22" y2="109.22" width="0.1524" layer="91"/>
 <label x="109.22" y="109.22" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<label x="340.36" y="114.3" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="RST" gate="G$1" pin="2"/>
+<wire x1="340.36" y1="114.3" x2="350.52" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="114.3" x2="350.52" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PC07" class="0">
@@ -31839,6 +31848,30 @@ power mode</text>
 <pinref part="J1" gate="G$1" pin="RX"/>
 <pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="406.4" y1="129.54" x2="393.7" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="A0" class="0">
+<segment>
+<label x="340.36" y="121.92" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="RST" gate="G$1" pin="1"/>
+<wire x1="345.44" y1="121.92" x2="340.36" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D3_ISO" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="A0"/>
+<wire x1="393.7" y1="109.22" x2="406.4" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="109.22" x2="408.94" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="109.22" x2="406.4" y2="104.14" width="0.1524" layer="91"/>
+<junction x="406.4" y="109.22"/>
+<wire x1="406.4" y1="104.14" x2="421.64" y2="104.14" width="0.1524" layer="91"/>
+<label x="421.64" y="104.14" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="RST" gate="G$1" pin="3"/>
+<pinref part="J1" gate="G$1" pin="!RESET"/>
+<wire x1="355.6" y1="121.92" x2="363.22" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
