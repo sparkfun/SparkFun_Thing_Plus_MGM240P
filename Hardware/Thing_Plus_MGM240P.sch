@@ -29596,7 +29596,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R20" library="SparkFun-Resistors" deviceset="330OHM" device="-0402T-1/16W-5%" value="330"/>
 <part name="R21" library="SparkFun-Resistors" deviceset="330OHM" device="-0402T-1/16W-5%" value="330"/>
-<part name="RST" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39288/1"/>
+<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39288/1"/>
 <part name="D3_ISO" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
 </parts>
 <sheets>
@@ -29673,13 +29673,15 @@ remove power LED</text>
 <text x="312.42" y="195.58" size="2.032" layer="97" font="vector" align="center">Cut trace to force
 debugger into low
 power mode</text>
-<text x="347.98" y="104.14" size="2.032" layer="97" font="vector" rot="R180" align="center">Connect RST jumper to
+<text x="347.98" y="104.14" size="2.032" layer="97" font="vector" rot="R180" align="center">Connect JP1 jumper to
 A0 side to reroute reset
 pin. Useful when using as
 a peripheral board</text>
 <text x="416.56" y="98.298" size="2.032" layer="97" font="vector" rot="R180" align="center">Cut D3_ISO trace to
-isolate PD03 if RST
+isolate PD03 if JP1
 is moved to A0 side</text>
+<text x="210.82" y="66.04" size="2.032" layer="97" font="vector" rot="R180" align="center">The following pins are connected for escape routing only:
+PA15, PB15, PC0, PD2, PE2, PE3, PE9, PF4</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="45.72" y="96.52" smashed="yes">
@@ -30301,7 +30303,7 @@ is moved to A0 side</text>
 <attribute name="NAME" x="411.48" y="131.064" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="411.48" y="128.016" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="RST" gate="G$1" x="350.52" y="121.92" smashed="yes" rot="R90">
+<instance part="JP1" gate="G$1" x="350.52" y="121.92" smashed="yes" rot="R90">
 <attribute name="NAME" x="350.52" y="124.714" size="1.778" layer="95" font="vector" align="center"/>
 </instance>
 <instance part="D3_ISO" gate="G$1" x="414.02" y="109.22" smashed="yes" rot="R180">
@@ -31261,7 +31263,7 @@ is moved to A0 side</text>
 </segment>
 <segment>
 <label x="340.36" y="114.3" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="RST" gate="G$1" pin="2"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="340.36" y1="114.3" x2="350.52" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="114.3" x2="350.52" y2="116.84" width="0.1524" layer="91"/>
 </segment>
@@ -31860,7 +31862,7 @@ is moved to A0 side</text>
 <net name="A0" class="0">
 <segment>
 <label x="340.36" y="121.92" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="RST" gate="G$1" pin="1"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="345.44" y1="121.92" x2="340.36" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -31876,7 +31878,7 @@ is moved to A0 side</text>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="RST" gate="G$1" pin="3"/>
+<pinref part="JP1" gate="G$1" pin="3"/>
 <pinref part="J1" gate="G$1" pin="!RESET"/>
 <wire x1="355.6" y1="121.92" x2="363.22" y2="121.92" width="0.1524" layer="91"/>
 </segment>
