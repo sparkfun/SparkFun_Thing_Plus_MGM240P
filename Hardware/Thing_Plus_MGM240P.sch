@@ -29673,6 +29673,13 @@ remove power LED</text>
 <text x="312.42" y="195.58" size="2.032" layer="97" font="vector" align="center">Cut trace to force
 debugger into low
 power mode</text>
+<text x="347.98" y="104.14" size="2.032" layer="97" font="vector" rot="R180" align="center">Connect RST jumper to
+A0 side to reroute reset
+pin. Useful when using as
+a peripheral board</text>
+<text x="416.56" y="98.298" size="2.032" layer="97" font="vector" rot="R180" align="center">Cut D3_ISO trace to
+isolate PD03 if RST
+is moved to A0 side</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="45.72" y="96.52" smashed="yes">
