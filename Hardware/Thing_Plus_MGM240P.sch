@@ -29434,7 +29434,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND25" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT20J" value="1A/23V/620mV"/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
-<part name="R3" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402T-1/16W-1%" value="10k"/>
+<part name="R3" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402T-1/16W-1%" value="100k"/>
 <part name="GND26" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C14" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0402_TIGHT-10V-10%-X5R" value="2.2uF"/>
 <part name="GND27" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
