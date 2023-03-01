@@ -20,8 +20,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide]()** - Basic hookup guide for the Thing Plus Matter - MGM240P.
-* **[Getting Started with Simplicity Studio]()** - Basic primer guide to get started with Silicon Labs' Silicon Studio IDE.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-thing-plus-matter---mgm240p-hookup-guide)** - Basic hookup guide for the Thing Plus Matter - MGM240P.
 
 Product Versions
 ----------------
