@@ -14,7 +14,6 @@ Repository Contents
 -------------------
 
 * **/Documentation** - Data sheets, additional product information
-* **/Examples** - Example code for the Thing Plus Matter - MGM240P in Simplicity Studio IDE 
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Production** - Production panel files (.brd)
 
