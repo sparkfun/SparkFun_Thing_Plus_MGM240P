@@ -20,6 +20,7 @@ Repository Contents
 Documentation
 --------------
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-thing-plus-matter---mgm240p-hookup-guide)** - Basic hookup guide for the Thing Plus Matter - MGM240P.
+* **[Fritzing Part](https://github.com/sparkfun/Fritzing_Parts/blob/main/products/20270_sfe_thing_plus_matter_mgm240p.fzpz)** -  Fritzing diagrams for SparkFun products.
 
 Product Versions
 ----------------
