@@ -21907,287 +21907,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="MGM240P">
-<packages>
-<package name="MGM240P">
-<description>&lt;h3&gt;MGM240P&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 36&lt;/li&gt;
-&lt;li&gt;Package size: 12.9mm x 15mm&lt;/li&gt;
-&lt;li&gt;Pin pitch: 1mm&lt;/li&gt;
-&lt;/ul&gt;</description>
-<wire x1="-6.7" y1="7.75" x2="-6.7" y2="1.3" width="0.2032" layer="21"/>
-<wire x1="-6.7" y1="1.3" x2="-6.7" y2="-7.75" width="0.2032" layer="21"/>
-<wire x1="-6.7" y1="-7.75" x2="6.7" y2="-7.75" width="0.2032" layer="21"/>
-<wire x1="6.7" y1="-7.75" x2="6.7" y2="1.3" width="0.2032" layer="21"/>
-<wire x1="6.7" y1="1.3" x2="6.7" y2="7.75" width="0.2032" layer="21"/>
-<wire x1="6.7" y1="7.75" x2="-6.7" y2="7.75" width="0.2032" layer="21"/>
-<wire x1="-6.45" y1="7.5" x2="-6.45" y2="-7.5" width="0.254" layer="51"/>
-<wire x1="-6.45" y1="-7.5" x2="6.45" y2="-7.5" width="0.254" layer="51"/>
-<wire x1="6.45" y1="-7.5" x2="6.45" y2="7.5" width="0.254" layer="51"/>
-<wire x1="6.45" y1="7.5" x2="-6.45" y2="7.5" width="0.254" layer="51"/>
-<circle x="-7.5" y="6.8" radius="0.25" width="0.5" layer="21"/>
-<smd name="1" x="-5.65" y="6.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
-<smd name="2" x="-5.65" y="5.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
-<smd name="3" x="-5.65" y="4.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
-<smd name="4" x="-5.65" y="3.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
-<smd name="5" x="-5.65" y="2.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
-<smd name="6" x="-5.65" y="1.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
-<smd name="7" x="-5.65" y="0.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
-<smd name="8" x="-5.65" y="-0.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
-<smd name="9" x="-5.65" y="-1.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
-<smd name="10" x="-5.65" y="-2.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
-<smd name="11" x="-5.65" y="-3.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
-<smd name="12" x="-5.65" y="-4.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
-<smd name="13" x="-5.65" y="-5.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
-<smd name="14" x="-5.65" y="-6.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
-<smd name="15" x="-3.5" y="-6.7" dx="0.6" dy="2.4" layer="1" roundness="100" cream="no"/>
-<smd name="16" x="-2.5" y="-6.7" dx="0.6" dy="2.4" layer="1" roundness="100" cream="no"/>
-<smd name="17" x="-1.5" y="-6.7" dx="0.6" dy="2.4" layer="1" roundness="100" cream="no"/>
-<smd name="18" x="-0.5" y="-6.7" dx="0.6" dy="2.4" layer="1" roundness="100" cream="no"/>
-<smd name="19" x="0.5" y="-6.7" dx="0.6" dy="2.4" layer="1" roundness="100" cream="no"/>
-<smd name="20" x="1.5" y="-6.7" dx="0.6" dy="2.4" layer="1" roundness="100" cream="no"/>
-<smd name="21" x="2.5" y="-6.7" dx="0.6" dy="2.4" layer="1" roundness="100" cream="no"/>
-<smd name="22" x="3.5" y="-6.7" dx="0.6" dy="2.4" layer="1" roundness="100" cream="no"/>
-<smd name="23" x="5.65" y="-6.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
-<smd name="24" x="5.65" y="-5.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
-<smd name="25" x="5.65" y="-4.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
-<smd name="26" x="5.65" y="-3.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
-<smd name="27" x="5.65" y="-2.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
-<smd name="28" x="5.65" y="-1.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
-<smd name="29" x="5.65" y="-0.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
-<smd name="30" x="5.65" y="0.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
-<smd name="31" x="5.65" y="1.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
-<smd name="32" x="5.65" y="2.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
-<smd name="33" x="5.65" y="3.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
-<smd name="34" x="5.65" y="4.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
-<smd name="35" x="5.65" y="5.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
-<smd name="36" x="5.65" y="6.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
-<text x="0" y="8" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-8" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-6.55" y1="6.55" x2="-4.75" y2="7.05" layer="31"/>
-<circle x="-6.55" y="6.8" radius="0" width="0.5" layer="31"/>
-<circle x="-4.75" y="6.8" radius="0" width="0.5" layer="31"/>
-<rectangle x1="-6.55" y1="5.55" x2="-4.75" y2="6.05" layer="31"/>
-<circle x="-6.55" y="5.8" radius="0" width="0.5" layer="31"/>
-<circle x="-4.75" y="5.8" radius="0" width="0.5" layer="31"/>
-<rectangle x1="-6.55" y1="4.55" x2="-4.75" y2="5.05" layer="31"/>
-<circle x="-6.55" y="4.8" radius="0" width="0.5" layer="31"/>
-<circle x="-4.75" y="4.8" radius="0" width="0.5" layer="31"/>
-<rectangle x1="-6.55" y1="3.55" x2="-4.75" y2="4.05" layer="31"/>
-<circle x="-6.55" y="3.8" radius="0" width="0.5" layer="31"/>
-<circle x="-4.75" y="3.8" radius="0" width="0.5" layer="31"/>
-<rectangle x1="-6.55" y1="2.55" x2="-4.75" y2="3.05" layer="31"/>
-<circle x="-6.55" y="2.8" radius="0" width="0.5" layer="31"/>
-<circle x="-4.75" y="2.8" radius="0" width="0.5" layer="31"/>
-<rectangle x1="-6.55" y1="1.55" x2="-4.75" y2="2.05" layer="31"/>
-<circle x="-6.55" y="1.8" radius="0" width="0.5" layer="31"/>
-<circle x="-4.75" y="1.8" radius="0" width="0.5" layer="31"/>
-<rectangle x1="-6.55" y1="0.55" x2="-4.75" y2="1.05" layer="31"/>
-<circle x="-6.55" y="0.8" radius="0" width="0.5" layer="31"/>
-<circle x="-4.75" y="0.8" radius="0" width="0.5" layer="31"/>
-<rectangle x1="-6.55" y1="-0.45" x2="-4.75" y2="0.05" layer="31"/>
-<circle x="-6.55" y="-0.2" radius="0" width="0.5" layer="31"/>
-<circle x="-4.75" y="-0.2" radius="0" width="0.5" layer="31"/>
-<rectangle x1="-6.55" y1="-1.45" x2="-4.75" y2="-0.95" layer="31"/>
-<circle x="-6.55" y="-1.2" radius="0" width="0.5" layer="31"/>
-<circle x="-4.75" y="-1.2" radius="0" width="0.5" layer="31"/>
-<rectangle x1="-6.55" y1="-2.45" x2="-4.75" y2="-1.95" layer="31"/>
-<circle x="-6.55" y="-2.2" radius="0" width="0.5" layer="31"/>
-<circle x="-4.75" y="-2.2" radius="0" width="0.5" layer="31"/>
-<rectangle x1="-6.55" y1="-3.45" x2="-4.75" y2="-2.95" layer="31"/>
-<circle x="-6.55" y="-3.2" radius="0" width="0.5" layer="31"/>
-<circle x="-4.75" y="-3.2" radius="0" width="0.5" layer="31"/>
-<rectangle x1="-6.55" y1="-4.45" x2="-4.75" y2="-3.95" layer="31"/>
-<circle x="-6.55" y="-4.2" radius="0" width="0.5" layer="31"/>
-<circle x="-4.75" y="-4.2" radius="0" width="0.5" layer="31"/>
-<rectangle x1="-6.55" y1="-5.45" x2="-4.75" y2="-4.95" layer="31"/>
-<circle x="-6.55" y="-5.2" radius="0" width="0.5" layer="31"/>
-<circle x="-4.75" y="-5.2" radius="0" width="0.5" layer="31"/>
-<rectangle x1="-6.55" y1="-6.45" x2="-4.75" y2="-5.95" layer="31"/>
-<circle x="-6.55" y="-6.2" radius="0" width="0.5" layer="31"/>
-<circle x="-4.75" y="-6.2" radius="0" width="0.5" layer="31"/>
-<rectangle x1="4.75" y1="6.55" x2="6.55" y2="7.05" layer="31"/>
-<circle x="4.75" y="6.8" radius="0" width="0.5" layer="31"/>
-<circle x="6.55" y="6.8" radius="0" width="0.5" layer="31"/>
-<rectangle x1="4.75" y1="5.55" x2="6.55" y2="6.05" layer="31"/>
-<circle x="4.75" y="5.8" radius="0" width="0.5" layer="31"/>
-<circle x="6.55" y="5.8" radius="0" width="0.5" layer="31"/>
-<rectangle x1="4.75" y1="4.55" x2="6.55" y2="5.05" layer="31"/>
-<circle x="4.75" y="4.8" radius="0" width="0.5" layer="31"/>
-<circle x="6.55" y="4.8" radius="0" width="0.5" layer="31"/>
-<rectangle x1="4.75" y1="3.55" x2="6.55" y2="4.05" layer="31"/>
-<circle x="4.75" y="3.8" radius="0" width="0.5" layer="31"/>
-<circle x="6.55" y="3.8" radius="0" width="0.5" layer="31"/>
-<rectangle x1="4.75" y1="2.55" x2="6.55" y2="3.05" layer="31"/>
-<circle x="4.75" y="2.8" radius="0" width="0.5" layer="31"/>
-<circle x="6.55" y="2.8" radius="0" width="0.5" layer="31"/>
-<rectangle x1="4.75" y1="1.55" x2="6.55" y2="2.05" layer="31"/>
-<circle x="4.75" y="1.8" radius="0" width="0.5" layer="31"/>
-<circle x="6.55" y="1.8" radius="0" width="0.5" layer="31"/>
-<rectangle x1="4.75" y1="0.55" x2="6.55" y2="1.05" layer="31"/>
-<circle x="4.75" y="0.8" radius="0" width="0.5" layer="31"/>
-<circle x="6.55" y="0.8" radius="0" width="0.5" layer="31"/>
-<rectangle x1="4.75" y1="-0.45" x2="6.55" y2="0.05" layer="31"/>
-<circle x="4.75" y="-0.2" radius="0" width="0.5" layer="31"/>
-<circle x="6.55" y="-0.2" radius="0" width="0.5" layer="31"/>
-<rectangle x1="4.75" y1="-1.45" x2="6.55" y2="-0.95" layer="31"/>
-<circle x="4.75" y="-1.2" radius="0" width="0.5" layer="31"/>
-<circle x="6.55" y="-1.2" radius="0" width="0.5" layer="31"/>
-<rectangle x1="4.75" y1="-2.45" x2="6.55" y2="-1.95" layer="31"/>
-<circle x="4.75" y="-2.2" radius="0" width="0.5" layer="31"/>
-<circle x="6.55" y="-2.2" radius="0" width="0.5" layer="31"/>
-<rectangle x1="4.75" y1="-3.45" x2="6.55" y2="-2.95" layer="31"/>
-<circle x="4.75" y="-3.2" radius="0" width="0.5" layer="31"/>
-<circle x="6.55" y="-3.2" radius="0" width="0.5" layer="31"/>
-<rectangle x1="4.75" y1="-4.45" x2="6.55" y2="-3.95" layer="31"/>
-<circle x="4.75" y="-4.2" radius="0" width="0.5" layer="31"/>
-<circle x="6.55" y="-4.2" radius="0" width="0.5" layer="31"/>
-<rectangle x1="4.75" y1="-5.45" x2="6.55" y2="-4.95" layer="31"/>
-<circle x="4.75" y="-5.2" radius="0" width="0.5" layer="31"/>
-<circle x="6.55" y="-5.2" radius="0" width="0.5" layer="31"/>
-<rectangle x1="4.75" y1="-6.45" x2="6.55" y2="-5.95" layer="31"/>
-<circle x="4.75" y="-6.2" radius="0" width="0.5" layer="31"/>
-<circle x="6.55" y="-6.2" radius="0" width="0.5" layer="31"/>
-<rectangle x1="-4.4" y1="-6.95" x2="-2.6" y2="-6.45" layer="31" rot="R90"/>
-<circle x="-3.5" y="-7.6" radius="0" width="0.5" layer="31"/>
-<circle x="-3.5" y="-5.8" radius="0" width="0.5" layer="31"/>
-<rectangle x1="-3.4" y1="-6.95" x2="-1.6" y2="-6.45" layer="31" rot="R90"/>
-<circle x="-2.5" y="-7.6" radius="0" width="0.5" layer="31"/>
-<circle x="-2.5" y="-5.8" radius="0" width="0.5" layer="31"/>
-<rectangle x1="-2.4" y1="-6.95" x2="-0.6" y2="-6.45" layer="31" rot="R90"/>
-<circle x="-1.5" y="-7.6" radius="0" width="0.5" layer="31"/>
-<circle x="-1.5" y="-5.8" radius="0" width="0.5" layer="31"/>
-<rectangle x1="-1.4" y1="-6.95" x2="0.4" y2="-6.45" layer="31" rot="R90"/>
-<circle x="-0.5" y="-7.6" radius="0" width="0.5" layer="31"/>
-<circle x="-0.5" y="-5.8" radius="0" width="0.5" layer="31"/>
-<rectangle x1="-0.4" y1="-6.95" x2="1.4" y2="-6.45" layer="31" rot="R90"/>
-<circle x="0.5" y="-7.6" radius="0" width="0.5" layer="31"/>
-<circle x="0.5" y="-5.8" radius="0" width="0.5" layer="31"/>
-<rectangle x1="0.6" y1="-6.95" x2="2.4" y2="-6.45" layer="31" rot="R90"/>
-<circle x="1.5" y="-7.6" radius="0" width="0.5" layer="31"/>
-<circle x="1.5" y="-5.8" radius="0" width="0.5" layer="31"/>
-<rectangle x1="1.6" y1="-6.95" x2="3.4" y2="-6.45" layer="31" rot="R90"/>
-<circle x="2.5" y="-7.6" radius="0" width="0.5" layer="31"/>
-<circle x="2.5" y="-5.8" radius="0" width="0.5" layer="31"/>
-<rectangle x1="2.6" y1="-6.95" x2="4.4" y2="-6.45" layer="31" rot="R90"/>
-<circle x="3.5" y="-7.6" radius="0" width="0.5" layer="31"/>
-<circle x="3.5" y="-5.8" radius="0" width="0.5" layer="31"/>
-<rectangle x1="-4.4" y1="2.7" x2="4.4" y2="7.5" layer="41"/>
-<rectangle x1="-4.4" y1="2.7" x2="4.4" y2="7.5" layer="42" rot="R180"/>
-<rectangle x1="-6.7" y1="-7.75" x2="6.7" y2="7.75" layer="39"/>
-<wire x1="-6.7" y1="1.3" x2="6.7" y2="1.3" width="0.2032" layer="21"/>
-<polygon width="0" layer="2" pour="cutout">
-<vertex x="-4.4" y="2.7"/>
-<vertex x="4.4" y="2.7"/>
-<vertex x="4.4" y="7.5"/>
-<vertex x="-4.4" y="7.5"/>
-</polygon>
-<polygon width="0" layer="15" pour="cutout">
-<vertex x="-4.4" y="2.7"/>
-<vertex x="4.4" y="2.7"/>
-<vertex x="4.4" y="7.5"/>
-<vertex x="-4.4" y="7.5"/>
-</polygon>
-</package>
-</packages>
-<symbols>
-<symbol name="MGM240P">
-<wire x1="-15.24" y1="25.4" x2="-15.24" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-25.4" x2="15.24" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-25.4" x2="15.24" y2="25.4" width="0.254" layer="94"/>
-<wire x1="15.24" y1="25.4" x2="-15.24" y2="25.4" width="0.254" layer="94"/>
-<pin name="GND" x="-17.78" y="-22.86" length="short" direction="pwr"/>
-<pin name="VDD" x="-17.78" y="22.86" length="short" direction="pwr"/>
-<pin name="PA00" x="17.78" y="17.78" length="short" rot="R180"/>
-<pin name="TCK/SWCLK/PA01" x="17.78" y="15.24" length="short" rot="R180"/>
-<pin name="TMS/SWDIO/PA02" x="17.78" y="12.7" length="short" rot="R180"/>
-<pin name="TDO/SWO/PA03" x="17.78" y="10.16" length="short" rot="R180"/>
-<pin name="TDI/PA04" x="17.78" y="7.62" length="short" rot="R180"/>
-<pin name="PA05" x="17.78" y="5.08" length="short" rot="R180"/>
-<pin name="PA06" x="17.78" y="2.54" length="short" rot="R180"/>
-<pin name="PA07" x="17.78" y="0" length="short" rot="R180"/>
-<pin name="PA08" x="17.78" y="-2.54" length="short" rot="R180"/>
-<pin name="VDAC0_CH0/PB00" x="17.78" y="-7.62" length="short" rot="R180"/>
-<pin name="VDAC0_CH1/PB01" x="17.78" y="-10.16" length="short" rot="R180"/>
-<pin name="VDAC1_CH0/PB02" x="17.78" y="-12.7" length="short" rot="R180"/>
-<pin name="VDAC1_CH1/PB03" x="17.78" y="-15.24" length="short" rot="R180"/>
-<pin name="PB04" x="17.78" y="-17.78" length="short" rot="R180"/>
-<pin name="PC00" x="-17.78" y="17.78" length="short"/>
-<pin name="PC01" x="-17.78" y="15.24" length="short"/>
-<pin name="PC02" x="-17.78" y="12.7" length="short"/>
-<pin name="PC03" x="-17.78" y="10.16" length="short"/>
-<pin name="PC04" x="-17.78" y="7.62" length="short"/>
-<pin name="PC05" x="-17.78" y="5.08" length="short"/>
-<pin name="PC06" x="-17.78" y="2.54" length="short"/>
-<pin name="PC07" x="-17.78" y="0" length="short"/>
-<pin name="PD00" x="-17.78" y="-5.08" length="short"/>
-<pin name="PD01" x="-17.78" y="-7.62" length="short"/>
-<pin name="PD02" x="-17.78" y="-10.16" length="short"/>
-<pin name="PD03" x="-17.78" y="-12.7" length="short"/>
-<pin name="!RESET!" x="17.78" y="22.86" length="short" direction="in" rot="R180"/>
-<pin name="RFOUT" x="-17.78" y="-17.78" length="short" direction="out"/>
-<text x="-15.24" y="26.162" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-15.24" y="-27.94" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MGM240P" prefix="U">
-<description>&lt;h3&gt;SiLabs MGM240P&lt;/h3&gt;
-&lt;p&gt;
-&lt;li&gt;High performance wireless MCU&lt;/li&gt;
-&lt;li&gt;Supports Zigbee, OpenThread, and BLE&lt;/li&gt;
-&lt;li&gt;26 GPIO pins&lt;/li&gt;
-&lt;li&gt;Based on EFR32MG24 SoC&lt;/li&gt;
-&lt;li&gt;1.5MB Flash memory&lt;/li&gt;
-&lt;li&gt;256kB internal RAM&lt;/li&gt;</description>
-<gates>
-<gate name="G$1" symbol="MGM240P" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MGM240P">
-<connects>
-<connect gate="G$1" pin="!RESET!" pad="31"/>
-<connect gate="G$1" pin="GND" pad="1 14 23 32 34 35 36"/>
-<connect gate="G$1" pin="PA00" pad="7"/>
-<connect gate="G$1" pin="PA05" pad="12"/>
-<connect gate="G$1" pin="PA06" pad="13"/>
-<connect gate="G$1" pin="PA07" pad="16"/>
-<connect gate="G$1" pin="PA08" pad="17"/>
-<connect gate="G$1" pin="PB04" pad="2"/>
-<connect gate="G$1" pin="PC00" pad="22"/>
-<connect gate="G$1" pin="PC01" pad="24"/>
-<connect gate="G$1" pin="PC02" pad="25"/>
-<connect gate="G$1" pin="PC03" pad="26"/>
-<connect gate="G$1" pin="PC04" pad="27"/>
-<connect gate="G$1" pin="PC05" pad="28"/>
-<connect gate="G$1" pin="PC06" pad="29"/>
-<connect gate="G$1" pin="PC07" pad="30"/>
-<connect gate="G$1" pin="PD00" pad="21"/>
-<connect gate="G$1" pin="PD01" pad="20"/>
-<connect gate="G$1" pin="PD02" pad="19"/>
-<connect gate="G$1" pin="PD03" pad="18"/>
-<connect gate="G$1" pin="RFOUT" pad="33"/>
-<connect gate="G$1" pin="TCK/SWCLK/PA01" pad="8"/>
-<connect gate="G$1" pin="TDI/PA04" pad="11"/>
-<connect gate="G$1" pin="TDO/SWO/PA03" pad="10"/>
-<connect gate="G$1" pin="TMS/SWDIO/PA02" pad="9"/>
-<connect gate="G$1" pin="VDAC0_CH0/PB00" pad="6"/>
-<connect gate="G$1" pin="VDAC0_CH1/PB01" pad="5"/>
-<connect gate="G$1" pin="VDAC1_CH0/PB02" pad="4"/>
-<connect gate="G$1" pin="VDAC1_CH1/PB03" pad="3"/>
-<connect gate="G$1" pin="VDD" pad="15"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-16860"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Boards">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 This library contains footprints for SparkFun breakout boards, microcontrollers (Arduino, Particle, Teensy, etc.),  breadboards, non-RF modules, etc.
@@ -28610,9 +28329,225 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="EFM32GG12B410F1024GL120">
+<library name="SparkFun-Coils">
+<description>&lt;h3&gt;SparkFun Coils&lt;/h3&gt;
+In this library you'll find magnetics.
+
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Inductors&lt;/li&gt;
+&lt;li&gt;Ferrite Beads&lt;/li&gt;
+&lt;li&gt;Transformers&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;p&gt;We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.&lt;/p&gt;</description>
 <packages>
-<package name="EFM32GG12B410F1024GL120">
+<package name="0402">
+<description>&lt;p&gt;&lt;b&gt;Generic 1005 (0402) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-0.2704" y1="0.2286" x2="0.2704" y2="0.2286" width="0.1524" layer="51"/>
+<wire x1="0.2704" y1="-0.2286" x2="-0.2704" y2="-0.2286" width="0.1524" layer="51"/>
+<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0.0508" layer="39"/>
+<smd name="1" x="-0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<smd name="2" x="0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.3048" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.3048" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="0402-TIGHT">
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="0" y="0.562" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.562" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="51"/>
+<rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="51" rot="R180"/>
+<wire x1="0.9262" y1="0.4262" x2="-0.9262" y2="0.4262" width="0.05" layer="39"/>
+<wire x1="-0.9262" y1="0.4262" x2="-0.9262" y2="-0.4262" width="0.05" layer="39"/>
+<wire x1="-0.9262" y1="-0.4262" x2="0.9262" y2="-0.4262" width="0.05" layer="39"/>
+<wire x1="0.9262" y1="-0.4262" x2="0.9262" y2="0.4262" width="0.05" layer="39"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FERRITE_BEAD">
+<description>&lt;h3&gt;Ferrite Bead (blocks, cores, rings, chokes, etc.)&lt;/h3&gt;
+&lt;p&gt;Inductor with layers of ferrite used to suppress high frequencies. Often used to isolate high frequency noise.&lt;/p&gt;</description>
+<text x="1.27" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="1.27" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="1.27" x2="0" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.889" y1="2.54" x2="0.889" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.143" y1="2.54" x2="1.143" y2="-2.54" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FERRITE_BEAD-120_OHM" prefix="FB">
+<description>&lt;h3&gt;Ferrite Bead (blocks, cores, rings, chokes, etc.)&lt;/h3&gt;
+&lt;p&gt;Inductor with layers of ferrite used to suppress high frequencies. Often used to isolate high frequency noise.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FERRITE_BEAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0402" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MFG_PART" value="BLM15HB121SN1D" constant="no"/>
+<attribute name="PROD_ID" value="NDUC-14206" constant="no"/>
+<attribute name="VALUE" value="120Ω" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402T" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NDUC-14206" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SparkFun-Clocks">
+<description>&lt;h3&gt;SparkFun Clocks, Oscillators and Resonators&lt;/h3&gt;
+This library contains the real-time clocks, oscillators, resonators, and crystals we use. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="CRYSTAL-SMD-2.0X1.6MM-ECS">
+<description>&lt;h3&gt;2.0 x 1.6 mm Crystal&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://ecsxtal.com/store/pdf/ECX-1637B2.pdf"&gt;Example Datasheet&lt;/a&gt; &lt;/p&gt;</description>
+<smd name="4" x="-0.675" y="0.525" dx="0.85" dy="0.75" layer="1"/>
+<smd name="3" x="0.675" y="0.525" dx="0.85" dy="0.75" layer="1" rot="R180"/>
+<smd name="2" x="0.675" y="-0.525" dx="0.85" dy="0.75" layer="1" rot="R180"/>
+<smd name="1" x="-0.675" y="-0.525" dx="0.85" dy="0.75" layer="1"/>
+<text x="0" y="1.25" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.25" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<wire x1="-1.3" y1="1" x2="-1.3" y2="-1" width="0.1524" layer="51"/>
+<wire x1="-1.3" y1="-1" x2="1.3" y2="-1" width="0.1524" layer="51"/>
+<wire x1="1.3" y1="-1" x2="1.3" y2="1" width="0.1524" layer="51"/>
+<wire x1="1.3" y1="1" x2="-1.3" y2="1" width="0.1524" layer="51"/>
+<wire x1="-1.4" y1="1.1" x2="-1.4" y2="-1.1" width="0.1524" layer="21"/>
+<wire x1="-1.4" y1="-1.1" x2="1.4" y2="-1.1" width="0.1524" layer="21"/>
+<wire x1="1.4" y1="-1.1" x2="1.4" y2="1.1" width="0.1524" layer="21"/>
+<wire x1="1.4" y1="1.1" x2="-1.4" y2="1.1" width="0.1524" layer="21"/>
+<circle x="-1.75" y="-1.25" radius="0.05" width="0.1524" layer="21"/>
+<rectangle x1="-1.3" y1="-1" x2="1.3" y2="1" layer="39"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CRYSTAL-GND">
+<description>&lt;h3&gt;Crystal with Ground pin&lt;/h3&gt;</description>
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="0" width="0.254" layer="94"/>
+<text x="1.524" y="-1.524" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
+<text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<wire x1="-1.016" y1="0" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
+<pin name="GND" x="0" y="-5.08" visible="off" length="short" direction="pwr" rot="R90"/>
+<wire x1="0" y1="-2.8" x2="0" y2="-1.6" width="0.1524" layer="94"/>
+<text x="-1.27" y="-1.524" size="1.778" layer="95" font="vector" align="top-right">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CRYSTAL-48MHZ" prefix="Y">
+<description>&lt;h3&gt;48 MHz Crystal&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="https://www.digikey.com/en/products/detail/ecs-inc/ECS-480-10-37B2-RWN-TR/14663261"&gt;Digikey Link&lt;/a&gt;
+&lt;/p&gt;
+&lt;b&gt;Crystal Attributes:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Frequency: 48 MHz&lt;/li&gt;
+&lt;li&gt;Frequency Stability: +/- 15ppm&lt;/li&gt;
+&lt;li&gt;Frequency Tolerance: +/- 15ppm&lt;/li&gt;
+&lt;li&gt;Load Capacitance: 10pF&lt;/li&gt;
+&lt;li&gt;ESR: 40 Ohms&lt;/li&gt;
+&lt;li&gt;Operating Mode: Fundamental&lt;/li&gt;
+&lt;li&gt;PAD 2 and PAD 4 are &lt;b&gt;GROUNDED&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="CRYSTAL-GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-SMD-2.0X1.6MM" package="CRYSTAL-SMD-2.0X1.6MM-ECS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2 4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="XTAL-16925"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SparkFun-IC-Microcontroller">
+<description>&lt;h3&gt;SparkFun Microcontrollers&lt;/h3&gt;
+This library contains microcontrollers.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="BGA120">
 <description>&lt;h3&gt;BGA120&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count: 120&lt;/li&gt;
@@ -28755,7 +28690,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </package>
 </packages>
 <symbols>
-<symbol name="EFM32GG12B410F1024GL120_A">
+<symbol name="EFM32GG12_A">
 <wire x1="-15.24" y1="22.86" x2="-15.24" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-20.32" x2="15.24" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-20.32" x2="15.24" y2="22.86" width="0.254" layer="94"/>
@@ -28795,7 +28730,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <text x="-15.24" y="25.4" size="1.778" layer="95" font="vector" align="top-left">&gt;NAME</text>
 <text x="-15.24" y="-22.86" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
-<symbol name="EFM32GG12B410F1024GL120_B">
+<symbol name="EFM32GG12_B">
 <pin name="PC0" x="-17.78" y="20.32" length="short"/>
 <pin name="PD0" x="17.78" y="20.32" length="short" rot="R180"/>
 <pin name="PC1" x="-17.78" y="17.78" length="short"/>
@@ -28835,7 +28770,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <text x="-15.24" y="25.4" size="1.778" layer="95" font="vector" align="top-left">&gt;NAME</text>
 <text x="-15.24" y="-22.86" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
-<symbol name="EFM32GG12B410F1024GL120_C">
+<symbol name="EFM32GG12_C">
 <pin name="PE0" x="-20.32" y="20.32" length="short"/>
 <pin name="DBG_SWCLK/PF0" x="22.86" y="20.32" length="short" rot="R180"/>
 <pin name="PE1" x="-20.32" y="17.78" length="short"/>
@@ -28872,7 +28807,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <text x="-17.78" y="25.4" size="1.778" layer="95" font="vector" align="top-left">&gt;NAME</text>
 <text x="-17.78" y="-22.86" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
-<symbol name="EFM32GG12B410F1024GL120_D">
+<symbol name="EFM32GG12_D">
 <pin name="VREGI" x="-15.24" y="-2.54" length="short"/>
 <pin name="VREGO" x="-15.24" y="-5.08" length="short"/>
 <pin name="VBUS" x="-15.24" y="0" length="short"/>
@@ -28892,7 +28827,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="EFM32GG12B410F1024GL120" prefix="U">
+<deviceset name="EFM32GG12" prefix="U">
 <description>&lt;h3&gt;SiLabs EFM32GG12&lt;/h3&gt;
 &lt;p&gt;
 &lt;li&gt;Energy efficient MCU.&lt;/li&gt;
@@ -28904,13 +28839,13 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;
 &lt;li&gt;&lt;a href=”https://www.silabs.com/documents/public/data-sheets/efm32gg12-datasheet.pdf”&gt;Datasheet&lt;/a&gt;&lt;/li&gt;&lt;/p&gt;</description>
 <gates>
-<gate name="A" symbol="EFM32GG12B410F1024GL120_A" x="-68.58" y="-2.54"/>
-<gate name="B" symbol="EFM32GG12B410F1024GL120_B" x="-22.86" y="-2.54"/>
-<gate name="C" symbol="EFM32GG12B410F1024GL120_C" x="25.4" y="-2.54"/>
-<gate name="D" symbol="EFM32GG12B410F1024GL120_D" x="73.66" y="0"/>
+<gate name="A" symbol="EFM32GG12_A" x="-68.58" y="-2.54"/>
+<gate name="B" symbol="EFM32GG12_B" x="-22.86" y="-2.54"/>
+<gate name="C" symbol="EFM32GG12_C" x="25.4" y="-2.54"/>
+<gate name="D" symbol="EFM32GG12_D" x="73.66" y="0"/>
 </gates>
 <devices>
-<device name="" package="EFM32GG12B410F1024GL120">
+<device name="B410F1024GL120" package="BGA120">
 <connects>
 <connect gate="A" pin="HFXTAL_N/PB14" pad="N10"/>
 <connect gate="A" pin="HFXTAL_P/PB13" pad="N9"/>
@@ -29026,9 +28961,22 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="M24C02-FMC6TG">
+<library name="SparkFun-IC-Memory">
+<description>&lt;h3&gt;SparkFun Memory ICs&lt;/h3&gt;
+This library contains memory ICs.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="M24C02-FMC6TG">
+<package name="DFN8_2X3MM">
 <description>&lt;h3&gt;UFDFPN8&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count: 8&lt;/li&gt;
@@ -29065,165 +29013,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <text x="0" y="-2" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 <rectangle x1="-1.1" y1="-1.75" x2="1.1" y2="1.75" layer="39"/>
 </package>
-</packages>
-<symbols>
-<symbol name="M24C02-FMC6TG">
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.1524" layer="94"/>
-<pin name="VCC" x="-10.16" y="5.08" length="short"/>
-<pin name="GND" x="-10.16" y="-5.08" length="short"/>
-<pin name="SDA" x="10.16" y="5.08" length="short" rot="R180"/>
-<pin name="SCL" x="10.16" y="2.54" length="short" rot="R180"/>
-<pin name="!WC!" x="10.16" y="-2.54" length="short" rot="R180"/>
-<pin name="EN" x="10.16" y="-5.08" length="short" rot="R180"/>
-<text x="-7.62" y="10.16" size="1.778" layer="95" font="vector" align="top-left">&gt;NAME</text>
-<text x="-7.62" y="-10.16" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="M24C02-FMC6TG" prefix="U">
-<description>&lt;h3&gt;STMicroelectronics M24C02 2k EEPROM&lt;/h3&gt;
-&lt;p&gt;
-&lt;li&gt;2k EEPROM&lt;/li&gt;
-&lt;li&gt;I2C interface&lt;/li&gt;
-&lt;li&gt;Write protection&lt;/li&gt;
-&lt;p&gt;
-&lt;li&gt;&lt;a href=”https://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf”&gt;Datasheet&lt;/a&gt;&lt;/li&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="M24C02-FMC6TG" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="M24C02-FMC6TG">
-<connects>
-<connect gate="G$1" pin="!WC!" pad="7"/>
-<connect gate="G$1" pin="EN" pad="1 2 3"/>
-<connect gate="G$1" pin="GND" pad="4 EPAD"/>
-<connect gate="G$1" pin="SCL" pad="6"/>
-<connect gate="G$1" pin="SDA" pad="5"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-16922"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="SparkFun-Coils">
-<description>&lt;h3&gt;SparkFun Coils&lt;/h3&gt;
-In this library you'll find magnetics.
-
-&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;Inductors&lt;/li&gt;
-&lt;li&gt;Ferrite Beads&lt;/li&gt;
-&lt;li&gt;Transformers&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-
-&lt;br&gt;
-&lt;p&gt;We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.&lt;/p&gt;</description>
-<packages>
-<package name="0402">
-<description>&lt;p&gt;&lt;b&gt;Generic 1005 (0402) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-0.2704" y1="0.2286" x2="0.2704" y2="0.2286" width="0.1524" layer="51"/>
-<wire x1="0.2704" y1="-0.2286" x2="-0.2704" y2="-0.2286" width="0.1524" layer="51"/>
-<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0.0508" layer="39"/>
-<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0.0508" layer="39"/>
-<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0.0508" layer="39"/>
-<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0.0508" layer="39"/>
-<smd name="1" x="-0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
-<smd name="2" x="0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.3048" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.3048" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-<package name="0402-TIGHT">
-<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
-<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
-<text x="0" y="0.562" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.562" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.002540625" layer="51"/>
-<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.002540625" layer="51"/>
-<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.002540625" layer="51"/>
-<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.002540625" layer="51"/>
-<rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="51"/>
-<rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="51" rot="R180"/>
-<wire x1="0.9262" y1="0.4262" x2="-0.9262" y2="0.4262" width="0.05" layer="39"/>
-<wire x1="-0.9262" y1="0.4262" x2="-0.9262" y2="-0.4262" width="0.05" layer="39"/>
-<wire x1="-0.9262" y1="-0.4262" x2="0.9262" y2="-0.4262" width="0.05" layer="39"/>
-<wire x1="0.9262" y1="-0.4262" x2="0.9262" y2="0.4262" width="0.05" layer="39"/>
-</package>
-</packages>
-<symbols>
-<symbol name="FERRITE_BEAD">
-<description>&lt;h3&gt;Ferrite Bead (blocks, cores, rings, chokes, etc.)&lt;/h3&gt;
-&lt;p&gt;Inductor with layers of ferrite used to suppress high frequencies. Often used to isolate high frequency noise.&lt;/p&gt;</description>
-<text x="1.27" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="1.27" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
-<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0" y1="1.27" x2="0" y2="0" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.889" y1="2.54" x2="0.889" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.143" y1="2.54" x2="1.143" y2="-2.54" width="0.1524" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="FERRITE_BEAD-120_OHM" prefix="FB">
-<description>&lt;h3&gt;Ferrite Bead (blocks, cores, rings, chokes, etc.)&lt;/h3&gt;
-&lt;p&gt;Inductor with layers of ferrite used to suppress high frequencies. Often used to isolate high frequency noise.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="FERRITE_BEAD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0402" package="0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MFG_PART" value="BLM15HB121SN1D" constant="no"/>
-<attribute name="PROD_ID" value="NDUC-14206" constant="no"/>
-<attribute name="VALUE" value="120Ω" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402T" package="0402-TIGHT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="NDUC-14206" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="MX25R8035FZUIL0">
-<packages>
-<package name="MX25R8035FZUIL0">
+<package name="USON-8_2X3MM">
 <description>&lt;h3&gt;8-USON&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count: 8&lt;/li&gt;
@@ -29264,7 +29054,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <symbols>
-<symbol name="MX25R8035FZUIL0">
+<symbol name="M24C02">
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.1524" layer="94"/>
+<pin name="VCC" x="-10.16" y="5.08" length="short"/>
+<pin name="GND" x="-10.16" y="-5.08" length="short"/>
+<pin name="SDA" x="10.16" y="5.08" length="short" rot="R180"/>
+<pin name="SCL" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="!WC!" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="EN" x="10.16" y="-5.08" length="short" rot="R180"/>
+<text x="-7.62" y="10.16" size="1.778" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+<symbol name="MX25R8035F">
 <wire x1="-10.16" y1="10.16" x2="-10.16" y2="-10.16" width="0.1524" layer="94"/>
 <wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.1524" layer="94"/>
@@ -29282,7 +29086,36 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MX25R8035FZUIL0" prefix="U">
+<deviceset name="M24C02" prefix="U">
+<description>&lt;h3&gt;STMicroelectronics M24C02 2k EEPROM&lt;/h3&gt;
+&lt;p&gt;
+&lt;li&gt;2k EEPROM&lt;/li&gt;
+&lt;li&gt;I2C interface&lt;/li&gt;
+&lt;li&gt;Write protection&lt;/li&gt;
+&lt;p&gt;
+&lt;li&gt;&lt;a href=”https://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf”&gt;Datasheet&lt;/a&gt;&lt;/li&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="M24C02" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-FMC6TG" package="DFN8_2X3MM">
+<connects>
+<connect gate="G$1" pin="!WC!" pad="7"/>
+<connect gate="G$1" pin="EN" pad="1 2 3"/>
+<connect gate="G$1" pin="GND" pad="4 EPAD"/>
+<connect gate="G$1" pin="SCL" pad="6"/>
+<connect gate="G$1" pin="SDA" pad="5"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-16922"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MX25R8035F" prefix="U">
 <description>&lt;h3&gt;Macronix MX25R8035F Serial Flash&lt;/h3&gt;
 &lt;p&gt;
 &lt;li&gt;Low power 8Mb flash storage chip&lt;/li&gt;
@@ -29291,10 +29124,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;p&gt;
 &lt;li&gt;&lt;a href=”https://www.macronix.com/Lists/Datasheet/Attachments/8749/MX25R8035F,%20Wide%20Range,%208Mb,%20v1.6.pdf”&gt;Datasheet&lt;/a&gt;&lt;/li&gt;&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="MX25R8035FZUIL0" x="0" y="0"/>
+<gate name="G$1" symbol="MX25R8035F" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="MX25R8035FZUIL0">
+<device name="ZUIL0" package="USON-8_2X3MM">
 <connects>
 <connect gate="G$1" pin="!CS!" pad="1"/>
 <connect gate="G$1" pin="!RESET!" pad="7"/>
@@ -29315,81 +29148,293 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="CRYSTAL-48MHZ">
+<library name="SparkFun-RF">
+<description>&lt;h3&gt;SparkFun RF, WiFi, Cellular, and Bluetooth&lt;/h3&gt;
+In this library you'll find things that send or receive RF-- cellular modules, Bluetooth, WiFi, etc.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="CRYSTAL-SMD-2.0X1.6MM-ECS">
-<description>&lt;h3&gt;2.0 x 1.6 mm Crystal&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://ecsxtal.com/store/pdf/ECX-1637B2.pdf"&gt;Example Datasheet&lt;/a&gt; &lt;/p&gt;</description>
-<smd name="4" x="-0.675" y="0.525" dx="0.85" dy="0.75" layer="1"/>
-<smd name="3" x="0.675" y="0.525" dx="0.85" dy="0.75" layer="1" rot="R180"/>
-<smd name="2" x="0.675" y="-0.525" dx="0.85" dy="0.75" layer="1" rot="R180"/>
-<smd name="1" x="-0.675" y="-0.525" dx="0.85" dy="0.75" layer="1"/>
-<text x="0" y="1.25" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.25" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-<wire x1="-1.3" y1="1" x2="-1.3" y2="-1" width="0.1524" layer="51"/>
-<wire x1="-1.3" y1="-1" x2="1.3" y2="-1" width="0.1524" layer="51"/>
-<wire x1="1.3" y1="-1" x2="1.3" y2="1" width="0.1524" layer="51"/>
-<wire x1="1.3" y1="1" x2="-1.3" y2="1" width="0.1524" layer="51"/>
-<wire x1="-1.4" y1="1.1" x2="-1.4" y2="-1.1" width="0.1524" layer="21"/>
-<wire x1="-1.4" y1="-1.1" x2="1.4" y2="-1.1" width="0.1524" layer="21"/>
-<wire x1="1.4" y1="-1.1" x2="1.4" y2="1.1" width="0.1524" layer="21"/>
-<wire x1="1.4" y1="1.1" x2="-1.4" y2="1.1" width="0.1524" layer="21"/>
-<circle x="-1.75" y="-1.25" radius="0.05" width="0.1524" layer="21"/>
-<rectangle x1="-1.3" y1="-1" x2="1.3" y2="1" layer="39"/>
+<package name="MGM240P">
+<description>&lt;h3&gt;MGM240P&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 36&lt;/li&gt;
+&lt;li&gt;Package size: 12.9mm x 15mm&lt;/li&gt;
+&lt;li&gt;Pin pitch: 1mm&lt;/li&gt;
+&lt;/ul&gt;</description>
+<wire x1="-6.7" y1="7.75" x2="-6.7" y2="1.3" width="0.2032" layer="21"/>
+<wire x1="-6.7" y1="1.3" x2="-6.7" y2="-7.75" width="0.2032" layer="21"/>
+<wire x1="-6.7" y1="-7.75" x2="6.7" y2="-7.75" width="0.2032" layer="21"/>
+<wire x1="6.7" y1="-7.75" x2="6.7" y2="1.3" width="0.2032" layer="21"/>
+<wire x1="6.7" y1="1.3" x2="6.7" y2="7.75" width="0.2032" layer="21"/>
+<wire x1="6.7" y1="7.75" x2="-6.7" y2="7.75" width="0.2032" layer="21"/>
+<wire x1="-6.45" y1="7.5" x2="-6.45" y2="-7.5" width="0.254" layer="51"/>
+<wire x1="-6.45" y1="-7.5" x2="6.45" y2="-7.5" width="0.254" layer="51"/>
+<wire x1="6.45" y1="-7.5" x2="6.45" y2="7.5" width="0.254" layer="51"/>
+<wire x1="6.45" y1="7.5" x2="-6.45" y2="7.5" width="0.254" layer="51"/>
+<circle x="-7.5" y="6.8" radius="0.25" width="0.5" layer="21"/>
+<smd name="1" x="-5.65" y="6.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
+<smd name="2" x="-5.65" y="5.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
+<smd name="3" x="-5.65" y="4.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
+<smd name="4" x="-5.65" y="3.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
+<smd name="5" x="-5.65" y="2.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
+<smd name="6" x="-5.65" y="1.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
+<smd name="7" x="-5.65" y="0.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
+<smd name="8" x="-5.65" y="-0.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
+<smd name="9" x="-5.65" y="-1.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
+<smd name="10" x="-5.65" y="-2.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
+<smd name="11" x="-5.65" y="-3.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
+<smd name="12" x="-5.65" y="-4.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
+<smd name="13" x="-5.65" y="-5.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
+<smd name="14" x="-5.65" y="-6.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R270" cream="no"/>
+<smd name="15" x="-3.5" y="-6.7" dx="0.6" dy="2.4" layer="1" roundness="100" cream="no"/>
+<smd name="16" x="-2.5" y="-6.7" dx="0.6" dy="2.4" layer="1" roundness="100" cream="no"/>
+<smd name="17" x="-1.5" y="-6.7" dx="0.6" dy="2.4" layer="1" roundness="100" cream="no"/>
+<smd name="18" x="-0.5" y="-6.7" dx="0.6" dy="2.4" layer="1" roundness="100" cream="no"/>
+<smd name="19" x="0.5" y="-6.7" dx="0.6" dy="2.4" layer="1" roundness="100" cream="no"/>
+<smd name="20" x="1.5" y="-6.7" dx="0.6" dy="2.4" layer="1" roundness="100" cream="no"/>
+<smd name="21" x="2.5" y="-6.7" dx="0.6" dy="2.4" layer="1" roundness="100" cream="no"/>
+<smd name="22" x="3.5" y="-6.7" dx="0.6" dy="2.4" layer="1" roundness="100" cream="no"/>
+<smd name="23" x="5.65" y="-6.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="24" x="5.65" y="-5.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="25" x="5.65" y="-4.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="26" x="5.65" y="-3.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="27" x="5.65" y="-2.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="28" x="5.65" y="-1.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="29" x="5.65" y="-0.2" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="30" x="5.65" y="0.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="31" x="5.65" y="1.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="32" x="5.65" y="2.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="33" x="5.65" y="3.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="34" x="5.65" y="4.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="35" x="5.65" y="5.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="36" x="5.65" y="6.8" dx="0.6" dy="2.4" layer="1" roundness="100" rot="R90" cream="no"/>
+<text x="0" y="8" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-6.55" y1="6.55" x2="-4.75" y2="7.05" layer="31"/>
+<circle x="-6.55" y="6.8" radius="0" width="0.5" layer="31"/>
+<circle x="-4.75" y="6.8" radius="0" width="0.5" layer="31"/>
+<rectangle x1="-6.55" y1="5.55" x2="-4.75" y2="6.05" layer="31"/>
+<circle x="-6.55" y="5.8" radius="0" width="0.5" layer="31"/>
+<circle x="-4.75" y="5.8" radius="0" width="0.5" layer="31"/>
+<rectangle x1="-6.55" y1="4.55" x2="-4.75" y2="5.05" layer="31"/>
+<circle x="-6.55" y="4.8" radius="0" width="0.5" layer="31"/>
+<circle x="-4.75" y="4.8" radius="0" width="0.5" layer="31"/>
+<rectangle x1="-6.55" y1="3.55" x2="-4.75" y2="4.05" layer="31"/>
+<circle x="-6.55" y="3.8" radius="0" width="0.5" layer="31"/>
+<circle x="-4.75" y="3.8" radius="0" width="0.5" layer="31"/>
+<rectangle x1="-6.55" y1="2.55" x2="-4.75" y2="3.05" layer="31"/>
+<circle x="-6.55" y="2.8" radius="0" width="0.5" layer="31"/>
+<circle x="-4.75" y="2.8" radius="0" width="0.5" layer="31"/>
+<rectangle x1="-6.55" y1="1.55" x2="-4.75" y2="2.05" layer="31"/>
+<circle x="-6.55" y="1.8" radius="0" width="0.5" layer="31"/>
+<circle x="-4.75" y="1.8" radius="0" width="0.5" layer="31"/>
+<rectangle x1="-6.55" y1="0.55" x2="-4.75" y2="1.05" layer="31"/>
+<circle x="-6.55" y="0.8" radius="0" width="0.5" layer="31"/>
+<circle x="-4.75" y="0.8" radius="0" width="0.5" layer="31"/>
+<rectangle x1="-6.55" y1="-0.45" x2="-4.75" y2="0.05" layer="31"/>
+<circle x="-6.55" y="-0.2" radius="0" width="0.5" layer="31"/>
+<circle x="-4.75" y="-0.2" radius="0" width="0.5" layer="31"/>
+<rectangle x1="-6.55" y1="-1.45" x2="-4.75" y2="-0.95" layer="31"/>
+<circle x="-6.55" y="-1.2" radius="0" width="0.5" layer="31"/>
+<circle x="-4.75" y="-1.2" radius="0" width="0.5" layer="31"/>
+<rectangle x1="-6.55" y1="-2.45" x2="-4.75" y2="-1.95" layer="31"/>
+<circle x="-6.55" y="-2.2" radius="0" width="0.5" layer="31"/>
+<circle x="-4.75" y="-2.2" radius="0" width="0.5" layer="31"/>
+<rectangle x1="-6.55" y1="-3.45" x2="-4.75" y2="-2.95" layer="31"/>
+<circle x="-6.55" y="-3.2" radius="0" width="0.5" layer="31"/>
+<circle x="-4.75" y="-3.2" radius="0" width="0.5" layer="31"/>
+<rectangle x1="-6.55" y1="-4.45" x2="-4.75" y2="-3.95" layer="31"/>
+<circle x="-6.55" y="-4.2" radius="0" width="0.5" layer="31"/>
+<circle x="-4.75" y="-4.2" radius="0" width="0.5" layer="31"/>
+<rectangle x1="-6.55" y1="-5.45" x2="-4.75" y2="-4.95" layer="31"/>
+<circle x="-6.55" y="-5.2" radius="0" width="0.5" layer="31"/>
+<circle x="-4.75" y="-5.2" radius="0" width="0.5" layer="31"/>
+<rectangle x1="-6.55" y1="-6.45" x2="-4.75" y2="-5.95" layer="31"/>
+<circle x="-6.55" y="-6.2" radius="0" width="0.5" layer="31"/>
+<circle x="-4.75" y="-6.2" radius="0" width="0.5" layer="31"/>
+<rectangle x1="4.75" y1="6.55" x2="6.55" y2="7.05" layer="31"/>
+<circle x="4.75" y="6.8" radius="0" width="0.5" layer="31"/>
+<circle x="6.55" y="6.8" radius="0" width="0.5" layer="31"/>
+<rectangle x1="4.75" y1="5.55" x2="6.55" y2="6.05" layer="31"/>
+<circle x="4.75" y="5.8" radius="0" width="0.5" layer="31"/>
+<circle x="6.55" y="5.8" radius="0" width="0.5" layer="31"/>
+<rectangle x1="4.75" y1="4.55" x2="6.55" y2="5.05" layer="31"/>
+<circle x="4.75" y="4.8" radius="0" width="0.5" layer="31"/>
+<circle x="6.55" y="4.8" radius="0" width="0.5" layer="31"/>
+<rectangle x1="4.75" y1="3.55" x2="6.55" y2="4.05" layer="31"/>
+<circle x="4.75" y="3.8" radius="0" width="0.5" layer="31"/>
+<circle x="6.55" y="3.8" radius="0" width="0.5" layer="31"/>
+<rectangle x1="4.75" y1="2.55" x2="6.55" y2="3.05" layer="31"/>
+<circle x="4.75" y="2.8" radius="0" width="0.5" layer="31"/>
+<circle x="6.55" y="2.8" radius="0" width="0.5" layer="31"/>
+<rectangle x1="4.75" y1="1.55" x2="6.55" y2="2.05" layer="31"/>
+<circle x="4.75" y="1.8" radius="0" width="0.5" layer="31"/>
+<circle x="6.55" y="1.8" radius="0" width="0.5" layer="31"/>
+<rectangle x1="4.75" y1="0.55" x2="6.55" y2="1.05" layer="31"/>
+<circle x="4.75" y="0.8" radius="0" width="0.5" layer="31"/>
+<circle x="6.55" y="0.8" radius="0" width="0.5" layer="31"/>
+<rectangle x1="4.75" y1="-0.45" x2="6.55" y2="0.05" layer="31"/>
+<circle x="4.75" y="-0.2" radius="0" width="0.5" layer="31"/>
+<circle x="6.55" y="-0.2" radius="0" width="0.5" layer="31"/>
+<rectangle x1="4.75" y1="-1.45" x2="6.55" y2="-0.95" layer="31"/>
+<circle x="4.75" y="-1.2" radius="0" width="0.5" layer="31"/>
+<circle x="6.55" y="-1.2" radius="0" width="0.5" layer="31"/>
+<rectangle x1="4.75" y1="-2.45" x2="6.55" y2="-1.95" layer="31"/>
+<circle x="4.75" y="-2.2" radius="0" width="0.5" layer="31"/>
+<circle x="6.55" y="-2.2" radius="0" width="0.5" layer="31"/>
+<rectangle x1="4.75" y1="-3.45" x2="6.55" y2="-2.95" layer="31"/>
+<circle x="4.75" y="-3.2" radius="0" width="0.5" layer="31"/>
+<circle x="6.55" y="-3.2" radius="0" width="0.5" layer="31"/>
+<rectangle x1="4.75" y1="-4.45" x2="6.55" y2="-3.95" layer="31"/>
+<circle x="4.75" y="-4.2" radius="0" width="0.5" layer="31"/>
+<circle x="6.55" y="-4.2" radius="0" width="0.5" layer="31"/>
+<rectangle x1="4.75" y1="-5.45" x2="6.55" y2="-4.95" layer="31"/>
+<circle x="4.75" y="-5.2" radius="0" width="0.5" layer="31"/>
+<circle x="6.55" y="-5.2" radius="0" width="0.5" layer="31"/>
+<rectangle x1="4.75" y1="-6.45" x2="6.55" y2="-5.95" layer="31"/>
+<circle x="4.75" y="-6.2" radius="0" width="0.5" layer="31"/>
+<circle x="6.55" y="-6.2" radius="0" width="0.5" layer="31"/>
+<rectangle x1="-4.4" y1="-6.95" x2="-2.6" y2="-6.45" layer="31" rot="R90"/>
+<circle x="-3.5" y="-7.6" radius="0" width="0.5" layer="31"/>
+<circle x="-3.5" y="-5.8" radius="0" width="0.5" layer="31"/>
+<rectangle x1="-3.4" y1="-6.95" x2="-1.6" y2="-6.45" layer="31" rot="R90"/>
+<circle x="-2.5" y="-7.6" radius="0" width="0.5" layer="31"/>
+<circle x="-2.5" y="-5.8" radius="0" width="0.5" layer="31"/>
+<rectangle x1="-2.4" y1="-6.95" x2="-0.6" y2="-6.45" layer="31" rot="R90"/>
+<circle x="-1.5" y="-7.6" radius="0" width="0.5" layer="31"/>
+<circle x="-1.5" y="-5.8" radius="0" width="0.5" layer="31"/>
+<rectangle x1="-1.4" y1="-6.95" x2="0.4" y2="-6.45" layer="31" rot="R90"/>
+<circle x="-0.5" y="-7.6" radius="0" width="0.5" layer="31"/>
+<circle x="-0.5" y="-5.8" radius="0" width="0.5" layer="31"/>
+<rectangle x1="-0.4" y1="-6.95" x2="1.4" y2="-6.45" layer="31" rot="R90"/>
+<circle x="0.5" y="-7.6" radius="0" width="0.5" layer="31"/>
+<circle x="0.5" y="-5.8" radius="0" width="0.5" layer="31"/>
+<rectangle x1="0.6" y1="-6.95" x2="2.4" y2="-6.45" layer="31" rot="R90"/>
+<circle x="1.5" y="-7.6" radius="0" width="0.5" layer="31"/>
+<circle x="1.5" y="-5.8" radius="0" width="0.5" layer="31"/>
+<rectangle x1="1.6" y1="-6.95" x2="3.4" y2="-6.45" layer="31" rot="R90"/>
+<circle x="2.5" y="-7.6" radius="0" width="0.5" layer="31"/>
+<circle x="2.5" y="-5.8" radius="0" width="0.5" layer="31"/>
+<rectangle x1="2.6" y1="-6.95" x2="4.4" y2="-6.45" layer="31" rot="R90"/>
+<circle x="3.5" y="-7.6" radius="0" width="0.5" layer="31"/>
+<circle x="3.5" y="-5.8" radius="0" width="0.5" layer="31"/>
+<rectangle x1="-4.4" y1="2.7" x2="4.4" y2="7.5" layer="41"/>
+<rectangle x1="-4.4" y1="2.7" x2="4.4" y2="7.5" layer="42" rot="R180"/>
+<rectangle x1="-6.7" y1="-7.75" x2="6.7" y2="7.75" layer="39"/>
+<wire x1="-6.7" y1="1.3" x2="6.7" y2="1.3" width="0.2032" layer="21"/>
+<polygon width="0" layer="2" pour="cutout">
+<vertex x="-4.4" y="2.7"/>
+<vertex x="4.4" y="2.7"/>
+<vertex x="4.4" y="7.5"/>
+<vertex x="-4.4" y="7.5"/>
+</polygon>
+<polygon width="0" layer="15" pour="cutout">
+<vertex x="-4.4" y="2.7"/>
+<vertex x="4.4" y="2.7"/>
+<vertex x="4.4" y="7.5"/>
+<vertex x="-4.4" y="7.5"/>
+</polygon>
 </package>
 </packages>
 <symbols>
-<symbol name="CRYSTAL-GND">
-<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="1.778" x2="-1.016" y2="0" width="0.254" layer="94"/>
-<text x="1.524" y="-1.524" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
-<text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
-<text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
-<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
-<wire x1="-1.016" y1="0" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
-<pin name="GND" x="0" y="-5.08" visible="off" length="short" direction="pwr" rot="R90"/>
-<wire x1="0" y1="-2.8" x2="0" y2="-1.6" width="0.1524" layer="94"/>
-<text x="-1.27" y="-1.524" size="1.778" layer="95" font="vector" align="top-right">&gt;NAME</text>
+<symbol name="MGM240P">
+<wire x1="-15.24" y1="25.4" x2="-15.24" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-25.4" x2="15.24" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-25.4" x2="15.24" y2="25.4" width="0.254" layer="94"/>
+<wire x1="15.24" y1="25.4" x2="-15.24" y2="25.4" width="0.254" layer="94"/>
+<pin name="GND" x="-17.78" y="-22.86" length="short" direction="pwr"/>
+<pin name="VDD" x="-17.78" y="22.86" length="short" direction="pwr"/>
+<pin name="PA00" x="17.78" y="17.78" length="short" rot="R180"/>
+<pin name="TCK/SWCLK/PA01" x="17.78" y="15.24" length="short" rot="R180"/>
+<pin name="TMS/SWDIO/PA02" x="17.78" y="12.7" length="short" rot="R180"/>
+<pin name="TDO/SWO/PA03" x="17.78" y="10.16" length="short" rot="R180"/>
+<pin name="TDI/PA04" x="17.78" y="7.62" length="short" rot="R180"/>
+<pin name="PA05" x="17.78" y="5.08" length="short" rot="R180"/>
+<pin name="PA06" x="17.78" y="2.54" length="short" rot="R180"/>
+<pin name="PA07" x="17.78" y="0" length="short" rot="R180"/>
+<pin name="PA08" x="17.78" y="-2.54" length="short" rot="R180"/>
+<pin name="VDAC0_CH0/PB00" x="17.78" y="-7.62" length="short" rot="R180"/>
+<pin name="VDAC0_CH1/PB01" x="17.78" y="-10.16" length="short" rot="R180"/>
+<pin name="VDAC1_CH0/PB02" x="17.78" y="-12.7" length="short" rot="R180"/>
+<pin name="VDAC1_CH1/PB03" x="17.78" y="-15.24" length="short" rot="R180"/>
+<pin name="PB04" x="17.78" y="-17.78" length="short" rot="R180"/>
+<pin name="PC00" x="-17.78" y="17.78" length="short"/>
+<pin name="PC01" x="-17.78" y="15.24" length="short"/>
+<pin name="PC02" x="-17.78" y="12.7" length="short"/>
+<pin name="PC03" x="-17.78" y="10.16" length="short"/>
+<pin name="PC04" x="-17.78" y="7.62" length="short"/>
+<pin name="PC05" x="-17.78" y="5.08" length="short"/>
+<pin name="PC06" x="-17.78" y="2.54" length="short"/>
+<pin name="PC07" x="-17.78" y="0" length="short"/>
+<pin name="PD00" x="-17.78" y="-5.08" length="short"/>
+<pin name="PD01" x="-17.78" y="-7.62" length="short"/>
+<pin name="PD02" x="-17.78" y="-10.16" length="short"/>
+<pin name="PD03" x="-17.78" y="-12.7" length="short"/>
+<pin name="!RESET!" x="17.78" y="22.86" length="short" direction="in" rot="R180"/>
+<pin name="RFOUT" x="-17.78" y="-17.78" length="short" direction="out"/>
+<text x="-15.24" y="26.162" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-15.24" y="-27.94" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CRYSTAL-48MHZ" prefix="Y">
-<description>&lt;h3&gt;48 MHz Crystal&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href="https://www.digikey.com/en/products/detail/ecs-inc/ECS-480-10-37B2-RWN-TR/14663261"&gt;Digikey Link&lt;/a&gt;
-&lt;/p&gt;
-&lt;b&gt;Crystal Attributes:&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;Frequency: 48 MHz&lt;/li&gt;
-&lt;li&gt;Frequency Stability: +/- 15ppm&lt;/li&gt;
-&lt;li&gt;Frequency Tolerance: +/- 15ppm&lt;/li&gt;
-&lt;li&gt;Load Capacitance: 10pF&lt;/li&gt;
-&lt;li&gt;ESR: 40 Ohms&lt;/li&gt;
-&lt;li&gt;Operating Mode: Fundamental&lt;/li&gt;
-&lt;li&gt;PAD 2 and PAD 4 are &lt;b&gt;GROUNDED&lt;/b&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+<deviceset name="MGM240P" prefix="U">
+<description>&lt;h3&gt;SiLabs MGM240P&lt;/h3&gt;
+&lt;p&gt;
+&lt;li&gt;High performance wireless MCU&lt;/li&gt;
+&lt;li&gt;Supports Zigbee, OpenThread, and BLE&lt;/li&gt;
+&lt;li&gt;26 GPIO pins&lt;/li&gt;
+&lt;li&gt;Based on EFR32MG24 SoC&lt;/li&gt;
+&lt;li&gt;1.5MB Flash memory&lt;/li&gt;
+&lt;li&gt;256kB internal RAM&lt;/li&gt;</description>
 <gates>
-<gate name="G$1" symbol="CRYSTAL-GND" x="0" y="0"/>
+<gate name="G$1" symbol="MGM240P" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CRYSTAL-SMD-2.0X1.6MM-ECS">
+<device name="" package="MGM240P">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-<connect gate="G$1" pin="GND" pad="2 4"/>
+<connect gate="G$1" pin="!RESET!" pad="31"/>
+<connect gate="G$1" pin="GND" pad="1 14 23 32 34 35 36"/>
+<connect gate="G$1" pin="PA00" pad="7"/>
+<connect gate="G$1" pin="PA05" pad="12"/>
+<connect gate="G$1" pin="PA06" pad="13"/>
+<connect gate="G$1" pin="PA07" pad="16"/>
+<connect gate="G$1" pin="PA08" pad="17"/>
+<connect gate="G$1" pin="PB04" pad="2"/>
+<connect gate="G$1" pin="PC00" pad="22"/>
+<connect gate="G$1" pin="PC01" pad="24"/>
+<connect gate="G$1" pin="PC02" pad="25"/>
+<connect gate="G$1" pin="PC03" pad="26"/>
+<connect gate="G$1" pin="PC04" pad="27"/>
+<connect gate="G$1" pin="PC05" pad="28"/>
+<connect gate="G$1" pin="PC06" pad="29"/>
+<connect gate="G$1" pin="PC07" pad="30"/>
+<connect gate="G$1" pin="PD00" pad="21"/>
+<connect gate="G$1" pin="PD01" pad="20"/>
+<connect gate="G$1" pin="PD02" pad="19"/>
+<connect gate="G$1" pin="PD03" pad="18"/>
+<connect gate="G$1" pin="RFOUT" pad="33"/>
+<connect gate="G$1" pin="TCK/SWCLK/PA01" pad="8"/>
+<connect gate="G$1" pin="TDI/PA04" pad="11"/>
+<connect gate="G$1" pin="TDO/SWO/PA03" pad="10"/>
+<connect gate="G$1" pin="TMS/SWDIO/PA02" pad="9"/>
+<connect gate="G$1" pin="VDAC0_CH0/PB00" pad="6"/>
+<connect gate="G$1" pin="VDAC0_CH1/PB01" pad="5"/>
+<connect gate="G$1" pin="VDAC1_CH0/PB02" pad="4"/>
+<connect gate="G$1" pin="VDAC1_CH1/PB03" pad="3"/>
+<connect gate="G$1" pin="VDD" pad="15"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="XTAL-16925"/>
+<attribute name="PROD_ID" value="IC-16860"/>
 </technology>
 </technologies>
 </device>
@@ -29410,7 +29455,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="U1" library="MGM240P" deviceset="MGM240P" device=""/>
+<part name="U1" library="SparkFun-RF" deviceset="MGM240P" device=""/>
 <part name="J1" library="SparkFun-Boards" deviceset="THING_PLUS_LOGICAL" device=""/>
 <part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
@@ -29511,7 +29556,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C1" library="SparkFun-Capacitors" deviceset="10UF" device="-0402T-6.3V-20%" value="10uF"/>
 <part name="SUPPLY31" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND21" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U3" library="EFM32GG12B410F1024GL120" deviceset="EFM32GG12B410F1024GL120" device=""/>
+<part name="U3" library="SparkFun-IC-Microcontroller" deviceset="EFM32GG12" device="B410F1024GL120"/>
 <part name="TP1" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
 <part name="TP2" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
 <part name="TP3" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
@@ -29530,7 +29575,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="TP12" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
 <part name="TP13" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
 <part name="TP14" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
-<part name="U6" library="M24C02-FMC6TG" deviceset="M24C02-FMC6TG" device=""/>
+<part name="U6" library="SparkFun-IC-Memory" deviceset="M24C02" device="-FMC6TG"/>
 <part name="GND14" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND15" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R14" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402T-1/16W-1%" value="100k"/>
@@ -29557,7 +29602,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C12" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0402_TIGHT-6.3V-20%-X5R" value="4.7uF"/>
 <part name="GND44" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND45" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U7" library="MX25R8035FZUIL0" deviceset="MX25R8035FZUIL0" device=""/>
+<part name="U7" library="SparkFun-IC-Memory" deviceset="MX25R8035F" device="ZUIL0"/>
 <part name="R12" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0402T-1/16W-1%" value="2.2k"/>
 <part name="R16" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0402T-1/16W-1%" value="2.2k"/>
 <part name="R17" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402T-1/16W-1%" value="10k"/>
@@ -29569,7 +29614,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND47" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C21" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-6.3V-10%-X7R" value="0.1uF"/>
 <part name="GND48" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="Y1" library="CRYSTAL-48MHZ" deviceset="CRYSTAL-48MHZ" device=""/>
+<part name="Y1" library="SparkFun-Clocks" deviceset="CRYSTAL-48MHZ" device="-SMD-2.0X1.6MM"/>
 <part name="GND49" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D8" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-RB751S40" value="120mA/40V/370mV"/>
 <part name="R18" library="SparkFun-Resistors" deviceset="1KOHM" device="-0402T-1/16W-1%" value="1k"/>
