@@ -2,7 +2,7 @@ SparkFun Thing Plus Matter - MGM240P
 ========================================
 
 
-[![SparkFun Thing Plus Matter - MGM240P](https://cdn.sparkfun.com/assets/parts/2/0/0/7/6/MGM240P_Thing_Plus-_01.jpg)](https://www.sparkfun.com/products/20270)
+[![SparkFun Thing Plus Matter - MGM240P](https://cdn.sparkfun.com//assets/parts/2/0/0/7/6/MGM240P_Thing_Plus-_08.jpg)](https://www.sparkfun.com/products/20270)
 
 [*SparkFun Thing Plus Matter - MGM240P (DEV-20270)*](https://www.sparkfun.com/products/20270)
 
